@@ -3,7 +3,7 @@
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
 
 - Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/)
-- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/)
+- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw)
 - São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/)
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
@@ -24,8 +24,29 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 
 OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.html) possibilita a visualização dos diferentes capítulos da R-Ladies no mundo.
 
-## Eventos online
+# Eventos online
 
-Em breve!
+## Eventos futuros
 
+| Data | Capítulo | Tema | Link |
+|------|----------|------|------|
+|23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) |
+|25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |
+|25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)|
+|27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) |
+|30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)|
+|      |          |      |      |
+
+
+
+
+## Eventos passados
+
+- Em breve!
+
+| Data | Capítulo | Tema | Link |
+|------|----------|------|------|
+|      |          |      |      |
+|      |          |      |      |
+|      |          |      |      |
 
