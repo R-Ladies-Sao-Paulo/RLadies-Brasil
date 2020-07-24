@@ -2,8 +2,8 @@
 
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
 
-- Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured)
-- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA)
+- Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured), [Twitter](https://twitter.com/rladiesrio), [Instagram](https://www.instagram.com/rladiesrio/), [Facebook](http://facebook.com/rladiesrio)
+- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
 - São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub - Apresentações anteriores](https://github.com/rladies/meetup-presentations_sao-paulo)
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/channel/UCtpGCWyRdscfs6KflWjACKw), [Twitter](https://twitter.com/RLadiesBH)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
