@@ -4,7 +4,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 
 - Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/)
 - Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw)
-- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/)
+- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub - Apresentações anteriores](https://github.com/rladies/meetup-presentations_sao-paulo)
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
@@ -28,7 +28,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 ## Eventos futuros
 
-| Data | Capítulo | Tema | Link |
+| Data | Capítulo | Tema | Links |
 |------|----------|------|------|
 |23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) |
 |25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |
@@ -44,9 +44,8 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 - Em breve!
 
-| Data | Capítulo | Tema | Link |
-|------|----------|------|------|
-|      |          |      |      |
-|      |          |      |      |
-|      |          |      |      |
+| Data | Capítulo | Tema | Links | Materiais|
+|------|----------|------|------|------|
+|16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
+|      |          |      |      |      |
 
