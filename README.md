@@ -30,9 +30,6 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) |
-|25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |
-|25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)|
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) |
 |30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)|
 |      |          |      |      |
@@ -46,6 +43,10 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
+|23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) | [Video no Youtube](https://www.youtube.com/watch?v=NkahvnQizp0) |
+|25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |      |
+|25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)|      |
+|27/05/2020| Rio de Janeiro | Trabalhos reprodutíveis com R e git | [Meetup](https://www.meetup.com/rladies-rio/events/270727462/) | [Video no Youtube](https://youtu.be/4nfIbiS1Huw) |
 |16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
 |      |          |      |      |      |
 
