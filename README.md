@@ -8,7 +8,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/channel/UCtpGCWyRdscfs6KflWjACKw), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbelohorizonte/), [Instagram](https://www.instagram.com/rladiesbh/)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
-- Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa)
+- Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
 - Lavras - [Meetup](https://www.meetup.com/rladies-lavras/)
 - Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/)
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/)
@@ -47,10 +47,14 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |      |
 |25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)|      |
 |11/07/2020| Belo Horizonte | R Markdown | [Meetup](https://www.meetup.com/rladies-belo-horizonte/events/271646004/)      |      |
+|27/06/2020| Niterói | Introdução ao pacote Dplyr | [Meetup](https://www.meetup.com/rladies-niteroi/events/271078955/) |      |
+|15/06/2020| Lavras | Word2vec: um gostinho de um algoritmo para PLN | [Meetup](https://www.meetup.com/rladies-lavras/events/271127428/) |      |
 |06/06/2020| Belo Horizonte | Curso Online de R Avançado | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-avancado__854681) |      |
 |30/05/2020| Belo Horizonte | Curso Online de R Intermediário | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-intermediario__853337) |      |
 |27/05/2020| Rio de Janeiro | Trabalhos reprodutíveis com R e git | [Meetup](https://www.meetup.com/rladies-rio/events/270727462/) | [Video no Youtube](https://youtu.be/4nfIbiS1Huw), [Material no GitHub](https://github.com/saramortara/R-git-tutorial) |
 |23/05/2020| Belo Horizonte | Curso Online de Introdução ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-introducao-ao-r__853103) |      |
 |16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
 |      |          |      |      |      |
+
+
 
