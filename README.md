@@ -32,6 +32,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |------|----------|------|------|
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) |
 |30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)|
+|08/08/2020| Belo Horizonte | 3 palestras, Dados Públicos aplicados ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---dados-publicos-aplicados-ao-r__916335)|
 |26/08/2020| Curitiba | Introdução ao R | Previsto - Em breve|
 |??/08/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
