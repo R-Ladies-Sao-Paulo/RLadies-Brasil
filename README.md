@@ -5,7 +5,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured), [Twitter](https://twitter.com/rladiesrio), [Instagram](https://www.instagram.com/rladiesrio/), [Facebook](http://facebook.com/rladiesrio)
 - Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
 - São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub - Apresentações anteriores](https://github.com/rladies/meetup-presentations_sao-paulo)
-- Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/channel/UCtpGCWyRdscfs6KflWjACKw), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbelohorizonte/), [Instagram](https://www.instagram.com/rladiesbh/)
+- Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/rladiesbelohorizonte), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbh), [Instagram](https://www.instagram.com/rladiesbh/)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
 - Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
@@ -32,9 +32,12 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |------|----------|------|------|
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) |
 |30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)|
+|08/08/2020| Belo Horizonte | 3 palestras, Dados Públicos aplicados ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---dados-publicos-aplicados-ao-r__916335)|
 |26/08/2020| Curitiba | Introdução ao R | Previsto - Em breve|
 |??/08/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
+|19/09/2020| Belo Horizonte | Sweeve (R + Latex) | Previsto - Em breve |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
+|17/10/2020| Belo Horizonte | 4 palestras, Previsto - Em breve | Previsto - Em breve |
 
 
 
