@@ -4,7 +4,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 
 - Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured), [Twitter](https://twitter.com/rladiesrio), [Instagram](https://www.instagram.com/rladiesrio/), [Facebook](http://facebook.com/rladiesrio)
 - Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
-- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub - Apresentações anteriores](https://github.com/rladies/meetup-presentations_sao-paulo)
+- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub - Apresentações anteriores](https://github.com/rladies/meetup-presentations_sao-paulo), [Youtube](https://www.youtube.com/channel/UCU3ePTnZQurDkYgPK61DAOw)
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/rladiesbelohorizonte), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbh), [Instagram](https://www.instagram.com/rladiesbh/)
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
@@ -17,7 +17,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/)
 - Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
 - Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal)
-- Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/)
+- Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
 
 
 
@@ -30,20 +30,21 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|08/08/2020| Belo Horizonte | 3 palestras, Dados Públicos aplicados ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---dados-publicos-aplicados-ao-r__916335)|
+|15/08/2020| Goiânia | Curso Online de GitHub | [Meetup](https://www.meetup.com/rladies-goiania/events/272469645/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)|
+|20/08/2020| Natal | Amostragem usando o R | [Meetup](https://www.meetup.com/rladies-natal/events/272484934/) |
+|22/08/2020| Belo Horizonte | Violência contra a mulher: Como combater o abuso e o assédio? | [Sympla](https://www.sympla.com.br/violencia-contra-a-mulher-como-combater-o-abuso-e-o-assedio__939294)|
 |26/08/2020| Curitiba | Introdução ao R | Previsto - Em breve|
-|??/08/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
+|??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |19/09/2020| Belo Horizonte | Sweeve (R + Latex) | Previsto - Em breve |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
 |17/10/2020| Belo Horizonte | 4 palestras, Previsto - Em breve | Previsto - Em breve |
-
-
 
 
 ## Eventos passados online
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
+|08/08/2020| Belo Horizonte | 3 palestras, Dados Públicos aplicados ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---dados-publicos-aplicados-ao-r__916335)| [Material](https://drive.google.com/drive/folders/1UNO_46lSQ63aU71tIR70-7le0ez10HT5)|
 |30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)| [Youtube](https://www.youtube.com/watch?v=OuqKNQ1-PnI) |
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) | [Apresentação](https://taiscarvalho.github.io/rladies-rbasico) |
 |23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) | [Video no Youtube](https://www.youtube.com/watch?v=NkahvnQizp0), [Material no GitHub](https://github.com/AndreaSanchezTapia/R-Ladies_meetup_julho_2020) |
@@ -52,17 +53,16 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |22/07/2020| Natal | Traduzindo nossos dados através da visualização gráfica | [Meetup](https://www.meetup.com/rladies-natal/events/271645665/) |      |
 |20/07/2020| Natal | Mulheres que inspiram: o uso do R na ciência | [Meetup](https://www.meetup.com/rladies-natal/events/271651731/) |      |
 |18/07/2020| Goiânia | Manipulação de Dados | [Meetup](https://www.meetup.com/rladies-goiania/events/271508096/) |      |
-|11/07/2020| Belo Horizonte | R Markdown | [Meetup](https://www.meetup.com/rladies-belo-horizonte/events/271646004/)      |      |
+|11/07/2020| Belo Horizonte | R Markdown | [Meetup](https://www.meetup.com/rladies-belo-horizonte/events/271646004/)      | [Material](https://drive.google.com/drive/folders/1UNO_46lSQ63aU71tIR70-7le0ez10HT5) |
 |04/07/2020| Goiânia | Introdução ao R | [Meetup](https://www.meetup.com/rladies-goiania/events/271507708/) |      |
 |27/06/2020| Niterói | Introdução ao pacote Dplyr | [Meetup](https://www.meetup.com/rladies-niteroi/events/271078955/) |      |
 |17/06/2020| Natal | Introdução ao R: passo a passo para iniciantes | [Meetup](https://www.meetup.com/rladies-natal/events/271187900/) |      |
 |15/06/2020| Lavras | Word2vec: um gostinho de um algoritmo para PLN | [Meetup](https://www.meetup.com/rladies-lavras/events/271127428/) |      |
-|06/06/2020| Belo Horizonte | Curso Online de R Avançado | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-avancado__854681) |      |
-|30/05/2020| Belo Horizonte | Curso Online de R Intermediário | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-intermediario__853337) |      |
+|06/06/2020| Belo Horizonte | Curso Online de R Avançado | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-avancado__854681) | [Material](https://drive.google.com/drive/folders/1UNO_46lSQ63aU71tIR70-7le0ez10HT5) |
+|30/05/2020| Belo Horizonte | Curso Online de R Intermediário | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-r-intermediario__853337) | [Material](https://drive.google.com/drive/folders/1UNO_46lSQ63aU71tIR70-7le0ez10HT5) |
 |27/05/2020| Rio de Janeiro | Trabalhos reprodutíveis com R e git | [Meetup](https://www.meetup.com/rladies-rio/events/270727462/) | [Video no Youtube](https://youtu.be/4nfIbiS1Huw), [Material no GitHub](https://github.com/saramortara/R-git-tutorial) |
 |23/05/2020| Belo Horizonte | Curso Online de Introdução ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-introducao-ao-r__853103) |      |
 |16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
-|      |          |      | [Meetup]() |      |
 
 
 
