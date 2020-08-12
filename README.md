@@ -33,7 +33,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |15/08/2020| Goiânia | Curso Online de GitHub | [Meetup](https://www.meetup.com/rladies-goiania/events/272469645/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)|
 |20/08/2020| Natal | Amostragem usando o R | [Meetup](https://www.meetup.com/rladies-natal/events/272484934/) |
 |22/08/2020| Belo Horizonte | Violência contra a mulher: Como combater o abuso e o assédio? | [Sympla](https://www.sympla.com.br/violencia-contra-a-mulher-como-combater-o-abuso-e-o-assedio__939294)|
-|26/08/2020| Curitiba | Introdução ao R | Previsto - Em breve|
+|26/08/2020| Curitiba | Introdução à Linguagem R | [Sympla](https://www.sympla.com.br/r-ladies-curitiba-introducao-a-linguagem-r__939607)|
 |??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |19/09/2020| Belo Horizonte | Sweeve (R + Latex) | Previsto - Em breve |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
