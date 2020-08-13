@@ -35,9 +35,12 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |22/08/2020| Belo Horizonte | Violência contra a mulher: Como combater o abuso e o assédio? | [Sympla](https://www.sympla.com.br/violencia-contra-a-mulher-como-combater-o-abuso-e-o-assedio__939294)|
 |26/08/2020| Curitiba | Introdução à Linguagem R | [Sympla](https://www.sympla.com.br/r-ladies-curitiba-introducao-a-linguagem-r__939607)|
 |??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
-|19/09/2020| Belo Horizonte | Sweeve (R + Latex) | Previsto - Em breve |
+|19/09/2020| Belo Horizonte | Curso - Sweeve (R + Latex) | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-de-sweeve---r--latex__926022) |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
-|17/10/2020| Belo Horizonte | 4 palestras, Previsto - Em breve | Previsto - Em breve |
+|10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
+|31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
+|21/11/2020| Belo Horizonte | Curso - Como criar um pacote do Zero | Previsto - Em breve |
+|19/12/2020| Belo Horizonte | Painel - Carreira na área de Dados | Previsto - Em breve |
 
 
 ## Eventos passados online
