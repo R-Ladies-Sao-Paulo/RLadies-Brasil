@@ -10,7 +10,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
 - Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
 - Lavras - [Meetup](https://www.meetup.com/rladies-lavras/)
-- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/), [Instagram](https://www.instagram.com/rladiesgyn), [GitHub](https://github.com/R-LadiesGYN)
+- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/), [Instagram](https://www.instagram.com/rladiesgyn), [GitHub](https://github.com/R-LadiesGYN/README)
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
 - Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus)
 - Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
@@ -47,7 +47,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
-|15/08/2020| Goiânia | Curso Online de GitHub | [Meetup](https://www.meetup.com/rladies-goiania/events/272469645/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)| |
+|15/08/2020| Goiânia | Curso Online de GitHub | [Meetup](https://www.meetup.com/rladies-goiania/events/272469645/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)| [Apresentação](https://github.com/p-simoes/apresentacoes/raw/master/Workshop%20Github.pptx) |
 |08/08/2020| Belo Horizonte | 3 palestras, Dados Públicos aplicados ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---dados-publicos-aplicados-ao-r__916335)| [Material](https://drive.google.com/drive/folders/1UNO_46lSQ63aU71tIR70-7le0ez10HT5)|
 |30/07/2020| Porto Alegre | 2 palestras, Apresentação de pesquisas que utilizam R | [Meetup](https://www.meetup.com/rladies-porto-alegre/events/271909699/)| [Youtube](https://www.youtube.com/watch?v=OuqKNQ1-PnI) |
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) | [Apresentação](https://taiscarvalho.github.io/rladies-rbasico) |
