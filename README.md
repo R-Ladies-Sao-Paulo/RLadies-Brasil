@@ -31,9 +31,9 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
 |20/08/2020| Natal | Amostragem usando o R | [Meetup](https://www.meetup.com/rladies-natal/events/272484934/) |
-|21/08/2020| Goiânia | Git & RStudio | [Meetup](https://www.meetup.com/pt-BR/rladies-goiania/events/272601746/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)
 |22/08/2020| Belo Horizonte | Violência contra a mulher: Como combater o abuso e o assédio? | [Sympla](https://www.sympla.com.br/violencia-contra-a-mulher-como-combater-o-abuso-e-o-assedio__939294)|
 |26/08/2020| Curitiba | Introdução à Linguagem R | [Sympla](https://www.sympla.com.br/r-ladies-curitiba-introducao-a-linguagem-r__939607)|
+|27/08/2020| Goiânia | Git & RStudio | [Meetup](https://www.meetup.com/pt-BR/rladies-goiania/events/272601746/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)
 |??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |19/09/2020| Belo Horizonte | Curso - Sweeve (R + Latex) | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-de-sweeve---r--latex__926022) |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
