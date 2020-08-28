@@ -69,8 +69,3 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |27/05/2020| Rio de Janeiro | Trabalhos reprodutíveis com R e git | [Meetup](https://www.meetup.com/rladies-rio/events/270727462/) | [Video no Youtube](https://youtu.be/4nfIbiS1Huw), [Material no GitHub](https://github.com/saramortara/R-git-tutorial) |
 |23/05/2020| Belo Horizonte | Curso Online de Introdução ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-introducao-ao-r__853103) |      |
 |16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
-
-
-
-
-
