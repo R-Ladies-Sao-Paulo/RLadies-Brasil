@@ -30,8 +30,6 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|26/08/2020| Curitiba | Introdução à Linguagem R | [Sympla](https://www.sympla.com.br/r-ladies-curitiba-introducao-a-linguagem-r__939607)|
-|27/08/2020| Goiânia | Git & RStudio | [Meetup](https://www.meetup.com/pt-BR/rladies-goiania/events/272601746/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)
 |29/08/2020| Goiânia | Excel - O indispensável | [Meetup](https://www.meetup.com/rladies-goiania/events/272720744/) |
 |05/09/2020| São Paulo | Aniversário 2 anos R-Ladies São Paulo | Previsto - Em breve|
 |??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
@@ -47,6 +45,8 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
+|26/08/2020| Curitiba | Introdução à Linguagem R | [Sympla](https://www.sympla.com.br/r-ladies-curitiba-introducao-a-linguagem-r__939607)| |
+|27/08/2020| Goiânia | Git & RStudio | [Meetup](https://www.meetup.com/pt-BR/rladies-goiania/events/272601746/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) | |
 |22/08/2020| Belo Horizonte | Violência contra a mulher: Como combater o abuso e o assédio? | [Sympla](https://www.sympla.com.br/violencia-contra-a-mulher-como-combater-o-abuso-e-o-assedio__939294)| |
 |20/08/2020| Natal | Amostragem usando o R | [Meetup](https://www.meetup.com/rladies-natal/events/272484934/) | |
 |15/08/2020| Goiânia | Curso Online de GitHub | [Meetup](https://www.meetup.com/rladies-goiania/events/272469645/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline)| [Apresentação](https://github.com/p-simoes/apresentacoes/raw/master/Workshop%20Github.pptx) |
@@ -69,8 +69,3 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |27/05/2020| Rio de Janeiro | Trabalhos reprodutíveis com R e git | [Meetup](https://www.meetup.com/rladies-rio/events/270727462/) | [Video no Youtube](https://youtu.be/4nfIbiS1Huw), [Material no GitHub](https://github.com/saramortara/R-git-tutorial) |
 |23/05/2020| Belo Horizonte | Curso Online de Introdução ao R | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-online-de-introducao-ao-r__853103) |      |
 |16/05/2020| São Paulo | SQL e R | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/270562652/)| [SQL - Primeiros passos](https://github.com/rladies/meetup-presentations_sao-paulo/blob/master/pdf_presentations/2020-05-16_RLadies-SQL_Adriana_Leticia_dos_Reis.pdf), [Do SQL para o R com o pacote dplyr](https://bit.ly/rladiessaopaulo-sql-r)
-
-
-
-
-
