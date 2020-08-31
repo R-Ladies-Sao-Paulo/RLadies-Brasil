@@ -10,7 +10,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
 - Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
 - Lavras - [Meetup](https://www.meetup.com/rladies-lavras/)
-- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/), [Instagram](https://www.instagram.com/rladiesgyn), [GitHub](https://github.com/R-LadiesGYN/README)
+- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/),  [Site](https://www.rladiesgyn.com/), [Twitter](https://twitter.com/rladiesgyn), [Instagram](https://www.instagram.com/rladiesgyn), [Linkedin](https://www.linkedin.com/in/r-ladies-gyn-017898195/), [GitHub](https://github.com/R-LadiesGYN/README)
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
 - Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus)
 - Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
@@ -32,19 +32,19 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |------|----------|------|------|
 |05/09/2020| São Paulo | Aniversário 2 anos R-Ladies São Paulo | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/272931538/) - Será [transmitido no Youtube](https://www.youtube.com/watch?v=YGwhKGIl8yo)|
 |09/09/2020| Curitiba | Visualização gráfica em mapa com dados da COVID-19 | [Meetup](https://www.meetup.com/rladies-curitiba/events/272820125/)| 
-|12/09/2020| Goiânia | Visualização de Dados: Ggploteando no R| [Meetup](https://www.meetup.com/rladies-goiania/events/272868040/) |
+|12/09/2020| Goiânia | Visualização de Dados: Ggploteando no R| [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |19/09/2020| Belo Horizonte | Curso - Sweeve (R + Latex) | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-de-sweeve---r--latex__926022) |
-|26/09/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
+|26/09/2020| Goiânia | RMarkdown | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
-|17/10/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
-|24/10/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
+|17/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|24/10/2020| Goiânia | Ciência de Dados & R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
-|14/11/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
+|14/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |21/11/2020| Belo Horizonte | Curso - Como criar um pacote do Zero | Previsto - Em breve |
-|28/11/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
-|12/11/2020| Goiânia | Em breve | [Meetup](https://www.meetup.com/rladies-goiania/events/) |
+|28/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|12/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |19/12/2020| Belo Horizonte | Painel - Carreira na área de Dados | Previsto - Em breve |
 
 
