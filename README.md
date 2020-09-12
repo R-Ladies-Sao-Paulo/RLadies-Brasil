@@ -30,17 +30,18 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|09/09/2020| Curitiba | Visualização gráfica em mapa com dados da COVID-19 | [Meetup](https://www.meetup.com/rladies-curitiba/events/272820125/)| 
-|12/09/2020| Goiânia | Visualização de Dados: Ggploteando no R| [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
-|??/09/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |19/09/2020| Belo Horizonte | Curso - Sweeve (R + Latex) | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-de-sweeve---r--latex__926022) |
+|30/09/2020| Rio de Janeiro + [LatinR](https://latin-r.com/pt) |  Manuscritos acadêmicos usando o pacote RMarkdown | Previsto - Em breve |
 |26/09/2020| Goiânia | RMarkdown | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|03/10/2020| São Paulo |  Biblioteca sqldf no R | Previsto - Em breve |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
+|10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
 |17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
 |17/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |24/10/2020| Goiânia | Ciência de Dados & R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
+|07/11/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |14/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |21/11/2020| Belo Horizonte | Curso - Como criar um pacote do Zero | Previsto - Em breve |
 |28/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
@@ -58,6 +59,8 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
+|12/09/2020| Goiânia | Visualização de Dados: Ggploteando no R| [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) | |
+|09/09/2020| Curitiba | Visualização gráfica em mapa com dados da COVID-19 | [Meetup](https://www.meetup.com/rladies-curitiba/events/272820125/)| |
 |05/09/2020| São Paulo | Aniversário 2 anos R-Ladies São Paulo | [Meetup](https://www.meetup.com/rladies-sao-paulo/events/272931538/)| [Gravação no Youtube](https://www.youtube.com/watch?v=YGwhKGIl8yo), Slides: [R-Ladies SP](https://r-ladies-sao-paulo.github.io/2020-R-LadiesSP-2Anos/), [Natália Souza](https://docs.google.com/presentation/d/1LWOlRugoJ2UqW_onPorWMk-04SUmWNnaZpLvi8FzCxI/edit?usp=sharing), [Anicely Santos](https://docs.google.com/presentation/d/1F9goYOCrtsawyqJoeRcW8Y17g1FkrqaAN-Kjp5QXzA4/edit?usp=sharing), [Ana Carolina Moreno](https://r-ladies-sao-paulo.github.io/2020-R-LadiesSP-2Anos/AnaCarolinaMoreno_dados_pandemia.pdf) |
 |29/08/2020| Goiânia | Excel - O indispensável | [Meetup](https://www.meetup.com/rladies-goiania/events/272720744/) | |
 |27/08/2020| Goiânia | Git & RStudio | [Meetup](https://www.meetup.com/pt-BR/rladies-goiania/events/272601746/) e [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) | [Material](https://beatrizmilz.github.io/slidesR/git_rstudio.html) |
