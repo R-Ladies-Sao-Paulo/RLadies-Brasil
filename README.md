@@ -35,6 +35,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |26/09/2020| Goiânia | RMarkdown | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |03/10/2020| São Paulo |  Biblioteca sqldf no R | Previsto - Em breve |
 |06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
+|09/10/2020| Natal | R para Ciências Humanas (Dplyr + Ggplot2) | [Meetup](https://www.meetup.com/rladies-natal/events/273270143/)|
 |10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
 |17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
