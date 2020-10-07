@@ -47,6 +47,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |28/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |28/11/2020| Fortaleza | Git e GitHub | Previsto - Em breve |
 |12/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+
 |19/12/2020| Belo Horizonte | Painel - Carreira na área de Dados | Previsto - Em breve |
 
 
