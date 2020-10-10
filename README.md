@@ -38,8 +38,8 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
 |17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
-|17/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
-|24/10/2020| Goiânia | Ciência de Dados & R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|17/10/2020| Goiânia | Ciência de Dados & R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|24/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
 |07/11/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |14/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
