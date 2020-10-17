@@ -16,7 +16,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
 - Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/)
 - Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
-- Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal)
+- Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal), [Instagram](https://www.instagram.com/rladiesfortaleza)
 - Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
 
 
