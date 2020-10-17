@@ -12,13 +12,13 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Lavras - [Meetup](https://www.meetup.com/rladies-lavras/)
 - Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/),  [Site](https://www.rladiesgyn.com/), [Twitter](https://twitter.com/rladiesgyn), [Instagram](https://www.instagram.com/rladiesgyn), [Linkedin](https://www.linkedin.com/in/r-ladies-gyn-017898195/), [GitHub](https://github.com/R-LadiesGYN/README)
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
-- Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus), [Instagram] (https://www.instagram.com/manausrladies)
+- Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus), [Instagram](https://www.instagram.com/manausrladies)
 - Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
 - Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/)
 - Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
 - Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal)
 - Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
-- Teresina - [Instagram] (https://www.instagram.com/rladiesthe), Youtube (https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ)
+- Teresina - [Instagram](https://www.instagram.com/rladiesthe), [Youtube](https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ)
 
 
 
