@@ -6,7 +6,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
 - São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub](https://github.com/rladies/meetup-presentations_sao-paulo), [Youtube](https://www.youtube.com/c/RLadiesS%C3%A3oPaulo/videos)
 - Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/rladiesbelohorizonte), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbh), [Instagram](https://www.instagram.com/rladiesbh/), [Linkedin] (https://www.linkedin.com/company/rladiesbh/)
-- Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
+- Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/), [Instagram](https://www.instagram.com/rladies.niteroi/?hl=pt-br)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
 - Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
 - Lavras - [Meetup](https://www.meetup.com/rladies-lavras/), [Instagram](https://www.instagram.com/rladieslavras/)
