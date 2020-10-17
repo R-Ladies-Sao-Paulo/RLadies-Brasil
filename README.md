@@ -74,7 +74,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |27/07/2020| Fortaleza | R para iniciantes | [Meetup](https://www.meetup.com/rladies-fortaleza/events/271839227/) | [Apresentação](https://taiscarvalho.github.io/rladies-rbasico) |
 |23/07/2020| Rio de Janeiro | Do script ao pacote de R | [Meetup](https://www.meetup.com/rladies-rio/events/271908427/) | [Video no Youtube](https://www.youtube.com/watch?v=NkahvnQizp0), [Material no GitHub](https://github.com/AndreaSanchezTapia/R-Ladies_meetup_julho_2020) |
 |25/07/2020| Goiânia | SQL & R: Um ótimo INNER JOIN | [Meetup](https://www.meetup.com/rladies-goiania/events/271509284/) e [Sympla](https://www.sympla.com.br/mes-do-r---curso-online-de-sql-e-r-um-otimo-inner-join__886073) |      |
-|25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)|      |
+|25/07/2020| Vitória | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R | [Meetup](https://www.meetup.com/rladies-vitoria/events/271974702/)| Materia no GitHub(https://github.com/agathasr/1meetup_RLadies_VIX)     |
 |22/07/2020| Natal | Traduzindo nossos dados através da visualização gráfica | [Meetup](https://www.meetup.com/rladies-natal/events/271645665/) |      |
 |20/07/2020| Natal | Mulheres que inspiram: o uso do R na ciência | [Meetup](https://www.meetup.com/rladies-natal/events/271651731/) |      |
 |18/07/2020| Goiânia | Manipulação de Dados | [Meetup](https://www.meetup.com/rladies-goiania/events/271508096/) |      |
