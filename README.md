@@ -9,7 +9,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/)
 - Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
 - Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
-- Lavras - [Meetup](https://www.meetup.com/rladies-lavras/)
+- Lavras - [Meetup](https://www.meetup.com/rladies-lavras/), [Instagram](https://www.instagram.com/rladieslavras/?hl=pt-br)
 - Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/),  [Site](https://www.rladiesgyn.com/), [Twitter](https://twitter.com/rladiesgyn), [Instagram](https://www.instagram.com/rladiesgyn), [Linkedin](https://www.linkedin.com/in/r-ladies-gyn-017898195/), [GitHub](https://github.com/R-LadiesGYN/README)
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
 - Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus)
