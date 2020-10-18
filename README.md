@@ -46,7 +46,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
-|17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
+|17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)| [Video no Youtube](https://www.youtube.com/c/RLadiesS%C3%A3oPaulo/videos) e [Roteiro com links de todas apresentações](https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/)
 |17/10/2020| Goiânia | Meu Projeto Data Science  | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
