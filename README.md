@@ -30,15 +30,6 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|19/09/2020| Belo Horizonte | Curso - Sweeve (R + Latex) | [Sympla](https://www.sympla.com.br/we-r-ladies---curso-de-sweeve---r--latex__926022) |
-|30/09/2020| Rio de Janeiro + [LatinR](https://latin-r.com/pt) |  Manuscritos acadêmicos usando o pacote RMarkdown | Previsto - Em breve |
-|26/09/2020| Goiânia | RMarkdown | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
-|06/10/2020| Rio de Janeiro | RMarkdown | Previsto - Em breve|
-|09/10/2020| Natal | R para Ciências Humanas (Dplyr + Ggplot2) | [Meetup](https://www.meetup.com/rladies-natal/events/273270143/)|
-|10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
-|10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
-|17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
-|17/10/2020| Goiânia | Meu Projeto Data Science  | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |24/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
 |07/11/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
@@ -51,15 +42,12 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 
 
-
-
-
-
-
 ## Eventos passados online
 
 | Data | Capítulo | Tema | Links | Materiais|
 |------|----------|------|------|------|
+|17/10/2020| São Paulo | R-Ladies São Paulo + Hacktoberfest  | [Previsto](https://organize.mlh.io/participants/events/4200-r-ladies-sao-paulo-hacktoberfest-meetup-online)|
+|17/10/2020| Goiânia | Meu Projeto Data Science  | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |10/10/2020| São Paulo + [LatinR](https://latin-r.com/pt) |  Apresentações com pacote xaringan | Previsto - Em breve |
 |10/10/2020| Belo Horizonte | Dados da Saúde Aplicados ao R | Previsto - Em breve |
 |09/10/2020| Natal | R para Ciências Humanas (Dplyr + Ggplot2) | [Meetup](https://www.meetup.com/rladies-natal/events/273270143/)|
