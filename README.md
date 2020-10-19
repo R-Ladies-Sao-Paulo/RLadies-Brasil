@@ -14,7 +14,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
 - Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus)
 - Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
-- Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/)
+- Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/), [Twitter](https://twitter.com/rladiesrp)
 - Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
 - Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal), [Instagram](https://www.instagram.com/rladiesfortaleza)
 - Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
