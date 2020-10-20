@@ -30,7 +30,7 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 
 | Data | Capítulo | Tema | Links |
 |------|----------|------|------|
-|24/10/2020| Goiânia | Spark | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|24/10/2020| Goiânia | Spark - Cancelado | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
 |07/11/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
 |14/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
