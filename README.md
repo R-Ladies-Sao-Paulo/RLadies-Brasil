@@ -34,11 +34,11 @@ OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.ht
 |31/10/2020| Goiânia | Manipulação de Dados com DPLYR | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |31/10/2020| Belo Horizonte | Dados do Meio Ambiente Aplicados ao R | Previsto - Em breve |
 |07/11/2020| São Paulo | Visualização de dados com R | Previsto - Em breve|
-|14/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|14/11/2020| Goiânia | Introdução ao R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |21/11/2020| Belo Horizonte | Curso - Como criar um pacote do Zero | Previsto - Em breve |
 |28/11/2020| Goiânia | Análise de Dados Epidemiológicos | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |28/11/2020| Fortaleza | Git e GitHub | Previsto - Em breve |
-|12/11/2020| Goiânia | Em breve | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
+|12/11/2020| Goiânia | Análise de Sentimentos com R | [Sympla](https://www.sympla.com.br/urlAlias/render?alias=cursosonline) |
 |19/12/2020| Belo Horizonte | Painel - Carreira na área de Dados | Previsto - Em breve |
 
 
