@@ -29,6 +29,9 @@ jobs:
           MEETUP_SECRET: ${{ secrets.MEETUP_SECRET }}          
         run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
       - name: Update events
+        env: 
+          MEETUP_KEY: ${{ secrets.MEETUP_KEY }}
+          MEETUP_SECRET: ${{ secrets.MEETUP_SECRET }}    
         run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
