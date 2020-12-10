@@ -1,5 +1,8 @@
 # Buscar informações sobre os capítulos no Brasil
 
+MEETUP_KEY <- Sys.getenv("MEETUP_KEY")
+MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
+
 `%>%` <- magrittr::`%>%`
 
 urlname <- RLadies.Brasil::capitulos_br %>% dplyr::pull(urlname)
@@ -8,7 +11,8 @@ maybe_get_events <- purrr::possibly(meetupr::get_events, otherwise = "Erro")
 
 events <- purrr::map(.x = urlname, 
                           .f = maybe_get_events, 
-                          event_status = c("past", "upcoming"))
+                          event_status = c("past", "upcoming"),
+                     api_key = MEETUP_KEY)
 
 eventos_br <- events %>%
   purrr::discard(is.vector) %>%
