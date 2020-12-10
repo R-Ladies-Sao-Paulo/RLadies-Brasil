@@ -26,7 +26,8 @@ Imports:
     lubridate,
     glue,
     knitr,
-    httpuv
+    httpuv,
+    readr
 Remotes: 
     rladies/meetupr
 Depends: 
