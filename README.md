@@ -18,6 +18,7 @@ Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das
 - Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
 - Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal), [Instagram](https://www.instagram.com/rladiesfortaleza)
 - Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
+- Teresina - [Instagram](https://www.instagram.com/rladiesthe/?hl=pt-br), [Youtube](https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ/videos)
 
 
 
