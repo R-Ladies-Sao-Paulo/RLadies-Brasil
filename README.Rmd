@@ -17,6 +17,7 @@ library(magrittr)
 # Capítulos da RLadies no Brasil
 
 <!-- badges: start -->
+[![R build status](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/workflows/R-CMD-check/badge.svg)](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/actions)
 <!-- badges: end -->
 
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
@@ -53,18 +54,19 @@ b) se foi criado após a data da última atualização dos dados abaixo.
 
 
 ```{r}
-eventos_br <- readr::read_rds("data/events_br.Rds")  %>%
-  dplyr::mutate(data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}"),
-                ano = lubridate::year(local_date_6)) 
+eventos_brasil <- RLadies.Brasil::eventos_br %>%
+  dplyr::mutate(
+    data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}"),
+    ano = lubridate::year(local_date_6)
+  ) 
 ```
 
 
 ## Eventos futuros
 
 ```{r}
-eventos_br %>% dplyr::filter(status_4 == "upcoming") %>%
-
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%   
+eventos_brasil %>% dplyr::filter(status_4 == "upcoming") %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
 
@@ -74,7 +76,7 @@ eventos_br %>% dplyr::filter(status_4 == "upcoming") %>%
 ### 2020
 
 ```{r}
-eventos_br %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
+eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -82,7 +84,7 @@ eventos_br %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
 ### 2019
 
 ```{r}
-eventos_br %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
+eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -90,7 +92,7 @@ eventos_br %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
 ### 2018
 
 ```{r}
-eventos_br %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
+eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -98,7 +100,7 @@ eventos_br %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
 ### 2017
 
 ```{r}
-eventos_br %>% dplyr::filter(status_4 == "past", ano == 2017) %>%
+eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2017) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```

@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/workflows/R-CMD-check/badge.svg)](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/actions)
 <!-- badges: end -->
 
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e
