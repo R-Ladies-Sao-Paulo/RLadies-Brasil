@@ -1,0 +1,104 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE
+)
+
+library(magrittr)
+```
+
+# Capítulos da RLadies no Brasil
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
+
+
+- Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured), [Twitter](https://twitter.com/rladiesrio), [Instagram](https://www.instagram.com/rladiesrio/), [Facebook](http://facebook.com/rladiesrio)
+- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
+- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub](https://github.com/rladies/meetup-presentations_sao-paulo), [Youtube](https://www.youtube.com/c/RLadiesS%C3%A3oPaulo/videos)
+- Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/rladiesbelohorizonte), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbh), [Instagram](https://www.instagram.com/rladiesbh/), [Linkedin](https://www.linkedin.com/company/rladiesbh/)
+- Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/), [Instagram](https://www.instagram.com/rladies.niteroi/?hl=pt-br)
+- Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
+- Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
+- Lavras - [Meetup](https://www.meetup.com/rladies-lavras/), [Instagram](https://www.instagram.com/rladieslavras/)
+- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/),  [Site](https://www.rladiesgyn.com/), [Twitter](https://twitter.com/rladiesgyn), [Instagram](https://www.instagram.com/rladiesgyn), [Linkedin](https://www.linkedin.com/in/r-ladies-gyn-017898195/), [GitHub](https://github.com/R-LadiesGYN/README)
+- Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
+- Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus), [Instagram](https://www.instagram.com/manausrladies)
+- Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
+- Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/), [Twitter](https://twitter.com/rladiesrp)
+- Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
+- Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal), [Instagram](https://www.instagram.com/rladiesfortaleza)
+- Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
+- Teresina - [Instagram](https://www.instagram.com/rladiesthe), [Youtube](https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ)
+
+
+OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.html) possibilita a visualização dos diferentes capítulos da R-Ladies no mundo.
+
+# Eventos 
+
+Os dados abaixo foram obtidos na API do Meetup, através do pacote [`meetupr`](https://rladies.github.io/meetupr/). Portanto, caso você seja uma pessoa organizadora e o evento não esteja aparecendo nesta lista: 
+a) verifique se o evento existe na plataforma do meetup;
+b) se foi criado após a data da última atualização dos dados abaixo.
+
+**Data da última atualização: `r format(Sys.Date(), "%d/%m/%Y")`**
+
+
+```{r}
+eventos_br <- readr::read_rds("data/events_br.Rds")  %>%
+  dplyr::mutate(data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}"),
+                ano = lubridate::year(local_date_6)) 
+```
+
+
+## Eventos futuros
+
+```{r}
+eventos_br %>% dplyr::filter(status_4 == "upcoming") %>%
+
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%   
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+```
+
+
+## Eventos passados
+
+### 2020
+
+```{r}
+eventos_br %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+```
+
+### 2019
+
+```{r}
+eventos_br %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+```
+
+### 2018
+
+```{r}
+eventos_br %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+```
+
+### 2017
+
+```{r}
+eventos_br %>% dplyr::filter(status_4 == "past", ano == 2017) %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+```
