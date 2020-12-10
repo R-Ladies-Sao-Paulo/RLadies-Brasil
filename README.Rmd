@@ -20,7 +20,7 @@ library(magrittr)
 [![R build status](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/workflows/R-CMD-check/badge.svg)](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/actions)
 <!-- badges: end -->
 
-Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
+Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a **[sugestão de mudança via Pull Request](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/blob/master/data-raw/capitulos_redes.R)**, ou **comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)**.
 
 ```{r}
 RLadies.Brasil::capitulos_redes %>%
@@ -30,7 +30,7 @@ RLadies.Brasil::capitulos_redes %>%
       !is.na(.) ~ glue::glue("[:white_check_mark:]({.})"),
       is.na(.) ~
         glue::glue(
-          "[:clock130:](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)"
+          ""
         )
     )
   ),
@@ -39,10 +39,10 @@ RLadies.Brasil::capitulos_redes %>%
       !is.na(email) ~ glue::glue("[:white_check_mark:](mailto:{email})"),
       is.na(email) ~
         glue::glue(
-          "[:clock130:](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)"
+          ""
         )
     )) %>%
-  knitr::kable()
+  knitr::kable(align = "c")
 
 
 ```
