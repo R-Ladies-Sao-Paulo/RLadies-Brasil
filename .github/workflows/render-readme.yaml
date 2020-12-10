@@ -24,9 +24,12 @@ jobs:
           remotes::install_cran("usethis")
         shell: Rscript {0}
       - name: Update chapters
-        run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
+        env: 
+          MEETUP_KEY: ${{ secrets.MEETUP_KEY }}
+          MEETUP_SECRET: ${{ secrets.MEETUP_SECRET }}          
+        run: Rscript -e 'source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
       - name: Update events
-        run: Rscript -e '# source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
+        run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       - name: Commit results
