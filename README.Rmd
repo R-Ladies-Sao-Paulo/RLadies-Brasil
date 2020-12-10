@@ -22,24 +22,31 @@ library(magrittr)
 
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a sugestão de mudança via Pull Request, ou comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1).
 
+```{r}
+RLadies.Brasil::capitulos_redes %>%
+  dplyr::mutate(dplyr::across(
+    meetup:site,
+    ~ dplyr::case_when(
+      !is.na(.) ~ glue::glue("[:white_check_mark:]({.})"),
+      is.na(.) ~
+        glue::glue(
+          "[:clock130:](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)"
+        )
+    )
+  ),
+  
+  email = dplyr::case_when(
+      !is.na(email) ~ glue::glue("[:white_check_mark:](mailto:{email})"),
+      is.na(email) ~
+        glue::glue(
+          "[:clock130:](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)"
+        )
+    )) %>%
+  knitr::kable()
 
-- Rio de Janeiro - [Meetup](https://www.meetup.com/rladies-rio/), [Youtube](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured), [Twitter](https://twitter.com/rladiesrio), [Instagram](https://www.instagram.com/rladiesrio/), [Facebook](http://facebook.com/rladiesrio)
-- Porto Alegre - [Meetup](https://www.meetup.com/rladies-porto-alegre/), [Youtube](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw), [Twitter](https://twitter.com/RLadiesPOA), [Facebook](https://www.facebook.com/RLadiesPortoAlegre/)
-- São Paulo - [Meetup](https://www.meetup.com/rladies-sao-paulo/), [Twitter](https://twitter.com/RLadiesSaoPaulo), [Instagram](https://www.instagram.com/RLadiesSaoPaulo/), [Facebook](http://facebook.com/RLadiesSaoPaulo), [GitHub](https://github.com/rladies/meetup-presentations_sao-paulo), [Youtube](https://www.youtube.com/c/RLadiesS%C3%A3oPaulo/videos)
-- Belo Horizonte - [Meetup](https://www.meetup.com/rladies-belo-horizonte/), [Youtube](https://www.youtube.com/rladiesbelohorizonte), [Twitter](https://twitter.com/RLadiesBH), [Facebook](https://www.facebook.com/rladiesbh), [Instagram](https://www.instagram.com/rladiesbh/), [Linkedin](https://www.linkedin.com/company/rladiesbh/)
-- Niterói - [Meetup](https://www.meetup.com/rladies-niteroi/), [Instagram](https://www.instagram.com/rladies.niteroi/?hl=pt-br)
-- Salvador - [Meetup](https://www.meetup.com/rladies-salvador/)
-- Florianópolis - [Meetup](https://www.meetup.com/rladies-florianopolis/), [Twitter](https://twitter.com/RLadiesFloripa), [Instagram](https://www.instagram.com/rladies.floripa/)
-- Lavras - [Meetup](https://www.meetup.com/rladies-lavras/), [Instagram](https://www.instagram.com/rladieslavras/)
-- Goiânia - [Meetup](https://www.meetup.com/rladies-goiania/),  [Site](https://www.rladiesgyn.com/), [Twitter](https://twitter.com/rladiesgyn), [Instagram](https://www.instagram.com/rladiesgyn), [Linkedin](https://www.linkedin.com/in/r-ladies-gyn-017898195/), [GitHub](https://github.com/R-LadiesGYN/README)
-- Recife - [Meetup](https://www.meetup.com/rladies-recife/), [Instagram](https://www.instagram.com/rladiesrecife)
-- Manaus - [Meetup](https://www.meetup.com/R-Ladies-Manaus/), [Twitter](https://twitter.com/r_manaus), [Facebook](https://www.facebook.com/rladiesmanaus), [Instagram](https://www.instagram.com/manausrladies)
-- Vitória - [Meetup](https://www.meetup.com/rladies-vitoria/), [Twitter](https://twitter.com/rladiesvix), [Instagram](https://www.instagram.com/rladiesvix)
-- Ribeirão Preto - [Meetup](https://www.meetup.com/rladies-ribeirao-preto/), [Twitter](https://twitter.com/rladiesrp)
-- Natal - [Meetup](https://www.meetup.com/rladies-natal/), [Twitter](https://twitter.com/RLadiesNatal), [Instagram](https://www.instagram.com/rladiesnatal/)
-- Fortaleza - [Meetup](https://www.meetup.com/rladies-fortaleza/), [Twitter](http://www.twitter.com/RLadiesFortal), [Instagram](https://www.instagram.com/rladiesfortaleza)
-- Curitiba - [Meetup](https://www.meetup.com/rladies-curitibaa/), [LinkedIn](https://www.linkedin.com/company/r-ladies-curitiba), [Instagram](https://www.instagram.com/rladiescuritiba)
-- Teresina - [Instagram](https://www.instagram.com/rladiesthe), [Youtube](https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ)
+
+```
+
 
 
 OBS: [Esse  dashboard](https://benubah.github.io/r-community-explorer/rladies.html) possibilita a visualização dos diferentes capítulos da R-Ladies no mundo.
