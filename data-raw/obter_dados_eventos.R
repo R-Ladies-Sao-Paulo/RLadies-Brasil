@@ -2,7 +2,7 @@
 
 `%>%` <- magrittr::`%>%`
 
-urlname <- capitulos_br %>% dplyr::pull(urlname)
+urlname <- RLadies.Brasil::capitulos_br %>% dplyr::pull(urlname)
 
 maybe_get_events <- purrr::possibly(meetupr::get_events, otherwise = "Erro")
 
