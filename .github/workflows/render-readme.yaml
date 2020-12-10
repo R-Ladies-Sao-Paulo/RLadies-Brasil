@@ -1,9 +1,10 @@
 on:
   push:
-    paths:
-      - README.Rmd
+    branches: [ master ]
+  schedule:
+  - cron: "20 12 * * fri"
 
-name: Render README
+name: Render README + Update data
 
 jobs:
   render:
@@ -21,11 +22,16 @@ jobs:
           remotes::install_local(".")
           remotes::install_cran("rmarkdown")
         shell: Rscript {0}
+      - name: Update chapters
+        run: Rscript -e 'source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
+      - name: Update events
+        run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit README.md -m 'Re-build README.Rmd' || echo "No changes to commit"
+          git add .
+          git commit -m 'Atualiza dados e README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
