@@ -1,9 +1,13 @@
 # Buscar informações sobre os capítulos no Brasil
 
-meetupr::meetup_auth(readr::read_rds(".httr-oauth")[[1]])
-
 MEETUP_KEY <- Sys.getenv("MEETUP_KEY")
 MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
+
+
+meetupr::meetup_token(verbose = TRUE)
+
+meetupr::meetup_auth(readr::read_rds(".httr-oauth")[[1]])
+
 
 `%>%` <- magrittr::`%>%`
 
