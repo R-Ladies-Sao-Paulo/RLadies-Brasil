@@ -1,15 +1,38 @@
 Package: RLadies.Brasil
-Title: What the Package Does (One Line, Title Case)
+Title: Capítulos e Eventos das R-Ladies no Brasil
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Authors@R: c(
+    person(given = "Beatriz",
+           family = "Milz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "beatriz.milz@usp.br",
+           comment = c(ORCID = "0000-0002-3064-4486")),
+    person(given = "Jean",
+           family = "Prado",
+           role = c("aut"),
+           email = "jeangrprado@gmail.com",
+           comment = c(ORCID = "0000-0002-7928-774X")),
+    person(given = "Fernanda",
+           family = "Kelly",
+           role = c("ctb")),
+    person(given = "Priscila",
+           family = "Hohberg",
+           role = c("ctb")),
+    person(given = "Haydee",
+           family = "Svab",
+           role = c("ctb")),
+    person(given = "Liz S.",
+           family = "Nascimento",
+           role = c("ctb")),
+    person(given = "Layla",
+           family = "Comparin",
+           role = c("ctb")),
+    person(given = "Taís Maria",
+           family = "Nunes Carvalho",
+           role = c("ctb"))
+         )
+Description: Dados sobre capítulos e eventos das R-Ladies no Brasil
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
