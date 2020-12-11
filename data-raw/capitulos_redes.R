@@ -1,5 +1,5 @@
 ## code to prepare `capitulos_redes` dataset goes here
-
+library(magrittr)
 base_redes <- tibble::tibble(
   nome = as.character(),
   meetup = as.character(),
@@ -53,7 +53,8 @@ capitulos_redes <- base_redes %>%
     twitter = "https://twitter.com/RLadiesBH",
     instagram = "https://www.instagram.com/rladiesbh/",
     facebook = "https://www.facebook.com/rladiesbh",
-    linkedin = "https://www.linkedin.com/company/rladiesbh/"
+    linkedin = "https://www.linkedin.com/company/rladiesbh/",
+    site = "https://www.rladiesbh.com.br/"
   ) %>%
   
   tibble::add_row(nome = "Niterói",
