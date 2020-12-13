@@ -50,7 +50,8 @@ Imports:
     glue,
     knitr,
     httpuv,
-    readr
+    readr,
+    jsonlite
 Remotes: 
     rladies/meetupr
 Depends: 
