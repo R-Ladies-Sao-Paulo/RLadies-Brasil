@@ -89,7 +89,7 @@ RLadies.Brasil::eventos_recentes_brasil %>%
   
 ```
 
-Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Benubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
+Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Ben Ubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
 
 ## Eventos passados
 
