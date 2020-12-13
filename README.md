@@ -70,7 +70,7 @@ foi criado após a data da última atualização dos dados abaixo.
 
 Dados de eventos recentes obtidos no [calendário do R Community
 Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
-(Thanks to \[@Benubah\](<https://github.com/benubah>) for [this
+(Thanks to [Ben Ubah](https://github.com/benubah) for [this
 suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))\!
 
 ## Eventos passados
