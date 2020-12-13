@@ -23,7 +23,7 @@ library(magrittr)
 Segue abaixo a lista de capítulos cadastrados na plataforma Meetup, e links das redes sociais onde você poderá encontrar mais informações. Caso você seja uma pessoa organizadora de algum capítulo que não está na lista (ou que está com informações incompletas), você pode enviar a **[sugestão de mudança via Pull Request](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/blob/master/data-raw/capitulos_redes.R)**, ou **comentar [nessa issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)**.
 
 ```{r}
-RLadies.Brasil::capitulos_redes %>%
+RLadiesBrasil::capitulos_redes %>%
   dplyr::mutate(dplyr::across(
     meetup:site,
     ~ dplyr::case_when(
@@ -61,7 +61,7 @@ b) se foi criado após a data da última atualização dos dados abaixo.
 
 
 ```{r}
-eventos_brasil <- RLadies.Brasil::eventos_br %>%
+eventos_brasil <- RLadiesBrasil::eventos_br %>%
   dplyr::mutate(
     data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}"),
     ano = lubridate::year(local_date_6)
@@ -78,7 +78,7 @@ eventos_brasil <- RLadies.Brasil::eventos_br %>%
 #   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 
 # CÓDIGO ABAIXO: USANDO COM OS DADOS DO JSON DO R COMMUNITY DASHBOARD
-RLadies.Brasil::eventos_recentes_brasil %>% 
+RLadiesBrasil::eventos_recentes_brasil %>% 
   dplyr::arrange(desc(start)) %>% 
   tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>% 
   dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),

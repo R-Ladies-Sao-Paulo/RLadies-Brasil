@@ -1,20 +1,18 @@
-# Autenticacao --------------------------
+gargle:::secret_can_decrypt("RLadiesBrasil")
 
-MEETUP_KEY <- Sys.getenv("MEETUP_KEY")
-MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
+token <- gargle:::secret_read(package = "RLadiesBrasil",
+                              name = "meetup_token_gargle.rds.enc")
 
-# meetupr::meetup_token(verbose = FALSE)
+# readBin(token, what='raw') 
+# 
+# rawToChar(token, multiple = TRUE)
 
-# meetupr::meetup_auth(readr::read_rds(".httr-oauth")[[1]])
+Sys.setenv(MEETUPR_PAT = token)
 
-
-#meetupr::meetup_auth(Sys.getenv("TOKEN_MEETUP_OAUTH"))
-
-
-#  # Buscar informações sobre os capítulos no Brasil -----------
+# Buscar informações sobre os capítulos no Brasil -----------
 `%>%` <- magrittr::`%>%`
 
-urlname <- RLadies.Brasil::capitulos_br %>% dplyr::pull(urlname)
+urlname <- RLadiesBrasil::capitulos_br %>% dplyr::pull(urlname)
 
 maybe_get_events <-
   purrr::possibly(meetupr::get_events, otherwise = "Erro")
@@ -22,9 +20,7 @@ maybe_get_events <-
 events <- purrr::map(
   .x = urlname,
   .f = maybe_get_events,
-  event_status = c("past", "upcoming"),
-  api_key = MEETUP_KEY
-)
+  event_status = c("past", "upcoming"))
 
 eventos_br <- events %>%
   purrr::discard(is.vector) %>%
@@ -36,6 +32,6 @@ eventos_br <- events %>%
   dplyr::select(name_2, status_4, local_date_6, local_time_7, link_20, name_37) %>%
   dplyr::mutate(name_2 = stringr::str_replace_all(name_2, "\\|", "-"))
 
-# dplyr::glimpse(events_br)
+
 
 usethis::use_data(eventos_br, overwrite = TRUE)

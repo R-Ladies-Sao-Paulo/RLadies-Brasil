@@ -5,8 +5,8 @@
 # talvez uma vez a cada mês para saber se existem novos
 # capítulos da R-Ladies no Brasil
 
-MEETUP_KEY <- Sys.getenv("MEETUP_KEY")
-MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
+# MEETUP_KEY <- Sys.getenv("MEETUP_KEY")
+# MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
 
 `%>%` <- magrittr::`%>%`
 

@@ -25,14 +25,11 @@ jobs:
         shell: Rscript {0}
       - name:  Atualiza capítulos - meetupr - TEMPORARIAMENTE OFFLINE
         env: 
-          MEETUP_KEY: ${{ secrets.MEETUP_KEY }}
-          MEETUP_SECRET: ${{ secrets.MEETUP_SECRET }}          
+          RLADIES_BRASIL_PASSWORD: ${{ secrets.RLADIES_BRASIL_PASSWORD }}
         run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
       - name: Atualiza eventos - meetupr - TEMPORARIAMENTE OFFLINE
         env: 
-          MEETUP_KEY: ${{ secrets.MEETUP_KEY }}
-          MEETUP_SECRET: ${{ secrets.MEETUP_SECRET }} 
-          TOKEN_MEETUP_OAUTH: ${{ secrets.TOKEN_MEETUP_OAUTH }} 
+          RLADIES_BRASIL_PASSWORD: ${{ secrets.RLADIES_BRASIL_PASSWORD }}
         run: Rscript -e '# source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Atualizar eventos recentes - dados do R Community Dashboard
         run: Rscript -e 'source("data-raw/obter_eventos_recentes.R", encoding = "UTF-8")'        
