@@ -39,7 +39,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     magrittr,
-    meetupr (>= 0.2.3),
     dplyr,
     usethis,
     purrr,
@@ -53,6 +52,6 @@ Imports:
     readr,
     jsonlite
 Remotes: 
-    rladies/meetupr
+    rladies/meetupr@noninteractive
 Depends: 
     R (>= 2.10)
