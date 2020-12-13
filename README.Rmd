@@ -81,9 +81,11 @@ eventos_brasil <- RLadies.Brasil::eventos_br %>%
 RLadies.Brasil::eventos_recentes_brasil %>% 
   dplyr::arrange(desc(start)) %>% 
   tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>% 
-  dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America")) %>% 
-  dplyr::select(group, title, start, url) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+  dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
+                data = lubridate::as_date(start),
+                data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>% 
+  dplyr::select(group, title, data, url) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
   
 ```
 
