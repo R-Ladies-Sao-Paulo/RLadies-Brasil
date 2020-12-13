@@ -1,4 +1,6 @@
 
+<!-- NÃO edite o arquivo README.MD -->
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Capítulos da RLadies no Brasil
@@ -51,15 +53,20 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-**Data da última atualização: 11/12/2020**
+**Data da última atualização: 13/12/2020**
 
-## Eventos futuros
+## Eventos futuros/ Eventos recentes
 
-| Capítulo           | Nome do evento                        | Data e Hora        | Link                                                         |
-| :----------------- | :------------------------------------ | :----------------- | :----------------------------------------------------------- |
-| R-Ladies Salvador  | 2° Meetup Virtual R-Ladies Salvador   | 12/12/2020 - 15:00 | <https://www.meetup.com/rladies-salvador/events/274868144/>  |
-| R-Ladies Goiânia   | Mineração de Texto                    | 12/12/2020 - 14:00 | <https://www.meetup.com/rladies-goiania/events/275028688/>   |
-| R-Ladies Fortaleza | Introdução ao Git e GitHub no RStudio | 12/12/2020 - 09:00 | <https://www.meetup.com/rladies-fortaleza/events/275030815/> |
+| Capítulo                | Nome do evento                                                                              | Data e Hora | Link                                                              |
+| :---------------------- | :------------------------------------------------------------------------------------------ | :---------- | :---------------------------------------------------------------- |
+| R-Ladies Goiânia        | Mineração de Texto \[Virtual\]                                                              | 2020-12-12  | <https://www.meetup.com/rladies-goiania/events/275028688/>        |
+| R-Ladies Salvador       | 2° Meetup Virtual R-Ladies Salvador \[Virtual\]                                             | 2020-12-12  | <https://www.meetup.com/rladies-salvador/events/274868144/>       |
+| R-Ladies Goiânia        | \#PCA: GGPLOT2, PLOTLY & GGANIMATE \[Virtual\]                                              | 2020-12-07  | <https://www.meetup.com/rladies-goiania/events/274902564/>        |
+| R-Ladies São Paulo      | \[MeetUp Online\] Visualização Interativa de Dados – uma aplicação usando Shiny \[Virtual\] | 2020-12-05  | <https://www.meetup.com/rladies-sao-paulo/events/274890852/>      |
+| R-Ladies Curitiba       | word2vec: Onde vivem? O que fazem? O que comem? \[Virtual\]                                 | 2020-12-01  | <https://www.meetup.com/rladies-curitiba/events/274732608/>       |
+| R-Ladies Goiânia        | Análise de Dados Epidemiológicos \[Virtual\]                                                | 2020-11-28  | <https://www.meetup.com/rladies-goiania/events/274487649/>        |
+| R-Ladies São Paulo      | \[MeetUp Online\] People Analytics a Ciência de dados no RH \[Virtual\]                     | 2020-11-22  | <https://www.meetup.com/rladies-sao-paulo/events/274649434/>      |
+| R-Ladies Belo Horizonte | We R Ladies - Como criar um pacote do zero no R \[Virtual\]                                 | 2020-11-21  | <https://www.meetup.com/rladies-belo-horizonte/events/274501007/> |
 
 ## Eventos passados
 
@@ -67,6 +74,9 @@ foi criado após a data da última atualização dos dados abaixo.
 
 | Capítulo                | Nome do evento                                                                     | Data e Hora        | Link                                                              |
 | :---------------------- | :--------------------------------------------------------------------------------- | :----------------- | :---------------------------------------------------------------- |
+| R-Ladies Salvador       | 2° Meetup Virtual R-Ladies Salvador                                                | 12/12/2020 - 15:00 | <https://www.meetup.com/rladies-salvador/events/274868144/>       |
+| R-Ladies Goiânia        | Mineração de Texto                                                                 | 12/12/2020 - 14:00 | <https://www.meetup.com/rladies-goiania/events/275028688/>        |
+| R-Ladies Fortaleza      | Introdução ao Git e GitHub no RStudio                                              | 12/12/2020 - 09:00 | <https://www.meetup.com/rladies-fortaleza/events/275030815/>      |
 | R-Ladies Goiânia        | \#PCA: GGPLOT2, PLOTLY & GGANIMATE                                                 | 07/12/2020 - 19:00 | <https://www.meetup.com/rladies-goiania/events/274902564/>        |
 | R-Ladies São Paulo      | \[MeetUp Online\] Visualização Interativa de Dados – uma aplicação usando Shiny    | 05/12/2020 - 10:00 | <https://www.meetup.com/rladies-sao-paulo/events/274890852/>      |
 | R-Ladies Curitiba       | word2vec: Onde vivem? O que fazem? O que comem?                                    | 01/12/2020 - 19:00 | <https://www.meetup.com/rladies-curitiba/events/274732608/>       |
