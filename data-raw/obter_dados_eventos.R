@@ -8,7 +8,7 @@ MEETUP_SECRET <- Sys.getenv("MEETUP_SECRET")
 # meetupr::meetup_auth(readr::read_rds(".httr-oauth")[[1]])
 
 
-meetupr::meetup_auth(Sys.getenv("TOKEN_MEETUP_OAUTH"))
+#meetupr::meetup_auth(Sys.getenv("TOKEN_MEETUP_OAUTH"))
 
 
 #  # Buscar informações sobre os capítulos no Brasil -----------
