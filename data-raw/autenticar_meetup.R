@@ -23,17 +23,20 @@ reset_pwd <- FALSE
 crypt_path <- 'inst/secret/meetup_token_cyphr.rds'
 
 if (crypto) {
-  # cria um diretório temporário para
-  # armazenar o token sem criptografia
-  token_path <- tempfile(fileext = '.rds')
   
-  # renovar token no meetup (rodar apenas localmente)
-  meetupr::meetup_auth(
-    token = NULL,
-    cache = TRUE,
-    set_renv = FALSE,
-    token_path = token_path
-  )
+  if (local) {
+    # cria um diretório temporário para
+    # armazenar o token sem criptografia
+    token_path <- tempfile(fileext = '.rds')
+    
+    # renovar token no meetup (rodar apenas localmente)
+    meetupr::meetup_auth(
+      token = NULL,
+      cache = TRUE,
+      set_renv = FALSE,
+      token_path = token_path
+    )
+  }
   
   if (reset_pwd) {
     # gerando uma senha aleatória
