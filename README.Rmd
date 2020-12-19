@@ -73,7 +73,7 @@ eventos_brasil <- RLadiesBrasil::eventos_br %>%
 
 ```{r}
 # CÓDIGO ABAIXO: USANDO COM O PACOTE MEETUPR
-RLadiesBrasil::eventos_brasil %>% 
+eventos_brasil %>% 
   dplyr::filter(status_4 == "upcoming") %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
