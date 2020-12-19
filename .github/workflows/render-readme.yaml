@@ -23,22 +23,30 @@ jobs:
           remotes::install_cran("rmarkdown")
           remotes::install_cran("usethis")
         shell: Rscript {0}
-      - name:  Atualiza capítulos - meetupr - TEMPORARIAMENTE OFFLINE
+      - name:  Autenticar meetupr
         env: 
-          RLADIES_BRASIL_PASSWORD: ${{ secrets.RLADIES_BRASIL_PASSWORD }}
-        run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
-      - name: Atualiza eventos - meetupr - TEMPORARIAMENTE OFFLINE
+          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+        run: Rscript -e 'source("data-raw/autenticar_meetup.R", encoding = "UTF-8")'
+      - name:  Atualiza capítulos - meetupr
         env: 
-          RLADIES_BRASIL_PASSWORD: ${{ secrets.RLADIES_BRASIL_PASSWORD }}
-        run: Rscript -e '# source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
-      - name: Atualizar eventos recentes - dados do R Community Dashboard
-        run: Rscript -e 'source("data-raw/obter_eventos_recentes.R", encoding = "UTF-8")'        
+          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+        run: Rscript -e 'source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
+      - name: Atualiza eventos - meetupr
+        env: 
+          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+        run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
+      - name: Atualizar eventos recentes - dados do R Community Dashboard - OFFLINE
+        run: Rscript -e '# source("data-raw/obter_eventos_recentes.R", encoding = "UTF-8")'        
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
+          git add README.Rmd
+          git add README.md
+          git add data/capitulos_br.rda
+          git add data/eventos_br.rda 
+          git add data/capitulos_redes.rda
           git commit -m 'Atualiza dados e README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"

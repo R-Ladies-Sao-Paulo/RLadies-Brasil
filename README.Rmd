@@ -73,23 +73,25 @@ eventos_brasil <- RLadiesBrasil::eventos_br %>%
 
 ```{r}
 # CÓDIGO ABAIXO: USANDO COM O PACOTE MEETUPR
-# eventos_brasil %>% dplyr::filter(status_4 == "upcoming") %>%
-#   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-#   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+RLadiesBrasil::eventos_brasil %>% 
+  dplyr::filter(status_4 == "upcoming") %>%
+  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 
 # CÓDIGO ABAIXO: USANDO COM OS DADOS DO JSON DO R COMMUNITY DASHBOARD
-RLadiesBrasil::eventos_recentes_brasil %>% 
-  dplyr::arrange(desc(start)) %>% 
-  tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>% 
-  dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
-                data = lubridate::as_date(start),
-                data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>% 
-  dplyr::select(group, title, data, url) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
-  
+# RLadiesBrasil::eventos_recentes_brasil %>% 
+#   dplyr::arrange(desc(start)) %>% 
+#   tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>% 
+#   dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
+#                 data = lubridate::as_date(start),
+#                 data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>% 
+#   dplyr::select(group, title, data, url) %>%
+#   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
+
+# Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Ben Ubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
 ```
 
-Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Ben Ubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
+
 
 ## Eventos passados
 
