@@ -29,14 +29,12 @@ if (crypto) {
   token_path <- 'C:/Users/jean/Documents/secrets/meetup_token.rds'
   
   # renovar token no meetup (rodar apenas localmente)
-  if (local) {
-    meetupr::meetup_auth(
-      token = NULL,
-      cache = TRUE,
-      set_renv = FALSE,
-      token_path = token_path
-    )
-  }
+  meetupr::meetup_auth(
+    token = NULL,
+    cache = TRUE,
+    set_renv = FALSE,
+    token_path = token_path
+  )
   
   if (reset_pwd) {
     # gerando uma senha aleatória
