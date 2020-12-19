@@ -3,19 +3,6 @@
 # carrega o arquivo criptografado
 source('data-raw/autenticar_meetup.R')
 
-# carrega a chave da criptografia
-key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv('MEETUPR_PWD')))
-
-# desencripta temporariamente para usar na autenticação
-temp_token <- tempfile(fileext = '.rds')
-
-cyphr::decrypt_file(crypt_path,
-                    key = key,
-                    dest = temp_token)
-
-# autentica usando o arquivo temporário
-meetupr::meetup_auth(token = temp_token)
-
 # Buscar informações sobre os capítulos no Brasil -----------
 `%>%` <- magrittr::`%>%`
 

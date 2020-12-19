@@ -58,3 +58,18 @@ if (crypto) {
                       dest = crypt_path)
   
 }
+
+# autentica no meetup -----------------------------------------------------
+
+# se já não estiver carregada, puxa a chave da criptografia
+key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv('MEETUPR_PWD')))
+
+# desencripta temporariamente para usar na autenticação
+temp_token <- tempfile(fileext = '.rds')
+
+cyphr::decrypt_file(crypt_path,
+                    key = key,
+                    dest = temp_token)
+
+# autentica usando o arquivo temporário
+meetupr::meetup_auth(token = temp_token)
