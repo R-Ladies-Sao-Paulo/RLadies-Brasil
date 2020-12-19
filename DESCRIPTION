@@ -50,7 +50,9 @@ Imports:
     knitr,
     httpuv,
     readr,
-    jsonlite
+    jsonlite,
+    sodium,
+    cyphr
 Remotes: 
     rladies/meetupr@noninteractive
 Depends: 
