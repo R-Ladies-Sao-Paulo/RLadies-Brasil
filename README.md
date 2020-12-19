@@ -55,7 +55,7 @@ foi criado após a data da última atualização dos dados abaixo.
 
 **Data da última atualização: 19/12/2020**
 
-## Eventos futuros/ Eventos recentes
+## Eventos futuros
 
 | Capítulo | Nome do evento | Data e Hora | Link |
 | :------- | :------------- | :---------- | :--- |
@@ -85,7 +85,6 @@ foi criado após a data da última atualização dos dados abaixo.
 | R-Ladies Salvador       | 1° Meetup Virtual R-Ladies Salvador                                                | 09/10/2020 - 19:00 | <https://www.meetup.com/rladies-salvador/events/273429490/>       |
 | R-Ladies Natal          | “R para Ciências Humanas (Dplyr + Ggplot2)”                                        | 09/10/2020 - 14:00 | <https://www.meetup.com/rladies-natal/events/273270143/>          |
 | R-Ladies Niterói        | Shiny: zero to hero                                                                | 06/10/2020 - 10:00 | <https://www.meetup.com/rladies-niteroi/events/273601088/>        |
-| R-Ladies Rio de Janeiro | Latin-R e R-Ladies Natal: Escrevendo manuscritos acadêmicos usando RMarkdown       | 30/09/2020 - 18:00 | <https://www.meetup.com/rladies-rio/events/273511481/>            |
 | R-Ladies Natal          | Escrevendo manuscritos acadêmicos usando RMarkdown                                 | 30/09/2020 - 18:00 | <https://www.meetup.com/rladies-natal/events/273508552/>          |
 | R-Ladies Goiânia        | Descomplicando o R Markdown                                                        | 26/09/2020 - 14:00 | <https://www.meetup.com/rladies-goiania/events/273112264/>        |
 | R-Ladies Belo Horizonte | We R Ladies - Curso de Sweeve - (R + Latex)                                        | 19/09/2020 - 09:00 | <https://www.meetup.com/rladies-belo-horizonte/events/273193322/> |
@@ -103,7 +102,6 @@ foi criado após a data da última atualização dos dados abaixo.
 | R-Ladies Fortaleza      | R para iniciantes                                                                  | 27/07/2020 - 15:30 | <https://www.meetup.com/rladies-fortaleza/events/271839227/>      |
 | R-Ladies Goiânia        | Mês do R - SQL & R: Um ótimo INNER JOIN                                            | 25/07/2020 - 14:00 | <https://www.meetup.com/rladies-goiania/events/271509284/>        |
 | R-Ladies Vitória        | 1º Meetup R-Ladies Vitória - Um filme da sua vida com R                            | 25/07/2020 - 16:00 | <https://www.meetup.com/rladies-vitoria/events/271974702/>        |
-| R-Ladies Rio de Janeiro | Do script ao pacote de R                                                           | 23/07/2020 - 19:00 | <https://www.meetup.com/rladies-rio/events/271908427/>            |
 | R-Ladies Natal          | Traduzindo nossos dados através da visualização gráfica                            | 22/07/2020 - 18:15 | <https://www.meetup.com/rladies-natal/events/271645665/>          |
 | R-Ladies Natal          | Mulheres que inspiram: o uso do R na ciência                                       | 20/07/2020 - 10:00 | <https://www.meetup.com/rladies-natal/events/271651731/>          |
 | R-Ladies Goiânia        | Mês do R - Manipulação de Dados                                                    | 18/07/2020 - 14:00 | <https://www.meetup.com/rladies-goiania/events/271508096/>        |
@@ -113,15 +111,11 @@ foi criado após a data da última atualização dos dados abaixo.
 | R-Ladies Natal          | Introdução ao R: passo a passo para iniciantes.                                    | 17/06/2020 - 19:00 | <https://www.meetup.com/rladies-natal/events/271187900/>          |
 | R-Ladies Lavras         | \[MeetUp Online\] Word2vec: um gostinho de um algoritmo para PLN                   | 15/06/2020 - 19:00 | <https://www.meetup.com/rladies-lavras/events/271127428/>         |
 | R-Ladies Belo Horizonte | We R Ladies - Curso Iniciante, Intermediário e Avançado de R                       | 30/05/2020 - 09:00 | <https://www.meetup.com/rladies-belo-horizonte/events/270916253/> |
-| R-Ladies Rio de Janeiro | Trabalhos reprodutíveis com R e git                                                | 27/05/2020 - 18:30 | <https://www.meetup.com/rladies-rio/events/270727462/>            |
 | R-Ladies São Paulo      | \[MeetUp Online\] Do SQL para o R em minutos                                       | 16/05/2020 - 14:00 | <https://www.meetup.com/rladies-sao-paulo/events/270562652/>      |
-| R-Ladies Rio de Janeiro | \-ADIADO- Meetup R Ladies Rio Abril 2020                                           | 28/04/2020 - 18:00 | <https://www.meetup.com/rladies-rio/events/269186974/>            |
 | R-Ladies Vitória        | \[CANCELADO\] 1º Meetup R-Ladies Vitória - Curso Básico de R / Wordcloud em R      | 19/03/2020 - 19:30 | <https://www.meetup.com/rladies-vitoria/events/269257160/>        |
 | R-Ladies Goiânia        | 2° Meetup: Code Ladies Day em parceria com PyLadies e AI Girls                     | 12/03/2020 - 19:00 | <https://www.meetup.com/rladies-goiania/events/269130963/>        |
 | R-Ladies Floripa        | 7º Meetup R-Ladies Floripa                                                         | 19/02/2020 - 18:30 | <https://www.meetup.com/rladies-florianopolis/events/268632556/>  |
 | R-Ladies São Paulo      | COMEÇA ÀS 8H\! 16º Meetup R-Ladies São Paulo - Curso Básico de R gratuito          | 08/02/2020 - 08:00 | <https://www.meetup.com/rladies-sao-paulo/events/268379493/>      |
-| R-Ladies Rio de Janeiro | R-Ladies Rio + Niterói rstudio::conf ‘watch party’ - conexão ao vivo palestras     | 29/01/2020 - 13:00 | <https://www.meetup.com/rladies-rio/events/268051456/>            |
-| R-Ladies Rio de Janeiro | Meetup Janeiro 2020 - Vamos aprender usar Shinydashboard                           | 28/01/2020 - 18:30 | <https://www.meetup.com/rladies-rio/events/267710109/>            |
 
 ### 2019
 
@@ -135,7 +129,6 @@ foi criado após a data da última atualização dos dados abaixo.
 | R-Ladies Floripa        | 6º Meetup R-Ladies Floripa - Minicurso de R                                      | 09/11/2019 - 10:00 | <https://www.meetup.com/rladies-florianopolis/events/266178583/>  |
 | R-Ladies São Paulo      | 14º Meetup R-Ladies São Paulo - Machine Learning                                 | 31/10/2019 - 18:30 | <https://www.meetup.com/rladies-sao-paulo/events/265925621/>      |
 | R-Ladies Floripa        | 5º Meetup R-Ladies Floripa - Minicurso de R                                      | 29/10/2019 - 18:00 | <https://www.meetup.com/rladies-florianopolis/events/265394213/>  |
-| R-Ladies Rio de Janeiro | Meetup R-Ladies Rio de Janeiro Outubro 2019                                      | 24/10/2019 - 18:30 | <https://www.meetup.com/rladies-rio/events/265195019/>            |
 | R-Ladies São Paulo      | 13º Meetup - Edição Especial Outubro Rosa: CONRE-3 & R-Ladies São Paulo          | 16/10/2019 - 18:30 | <https://www.meetup.com/rladies-sao-paulo/events/265640044/>      |
 | R-Ladies Belo Horizonte | R Avançado - We R Ladies                                                         | 28/09/2019 - 09:00 | <https://www.meetup.com/rladies-belo-horizonte/events/263095881/> |
 | R-Ladies Niterói        | Minicurso de introdução à linguagem R                                            | 27/09/2019 - 14:00 | <https://www.meetup.com/rladies-niteroi/events/264958565/>        |
@@ -184,13 +177,9 @@ foi criado após a data da última atualização dos dados abaixo.
 | R-Ladies Porto Alegre   | 2º Meetup R-Ladies Porto Alegre                                                  | 14/08/2018 - 19:00 | <https://www.meetup.com/rladies-porto-alegre/events/252837889/>   |
 | R-Ladies São Paulo      | 1º MeetUp R-Ladies São Paulo                                                     | 13/08/2018 - 19:30 | <https://www.meetup.com/rladies-sao-paulo/events/253525418/>      |
 | R-Ladies Belo Horizonte | 1º Meetup R-Ladies Belo Horizonte                                                | 09/06/2018 - 13:00 | <https://www.meetup.com/rladies-belo-horizonte/events/250105453/> |
-| R-Ladies Rio de Janeiro | 4º Meetup R-Ladies Rio                                                           | 07/06/2018 - 18:00 | <https://www.meetup.com/rladies-rio/events/250840985/>            |
 | R-Ladies Porto Alegre   | 1º Meetup R-Ladies Porto Alegre                                                  | 16/04/2018 - 19:00 | <https://www.meetup.com/rladies-porto-alegre/events/248922652/>   |
 
 ### 2017
 
-| Capítulo                | Nome do evento               | Data e Hora        | Link                                                   |
-| :---------------------- | :--------------------------- | :----------------- | :----------------------------------------------------- |
-| R-Ladies Rio de Janeiro | 3º Meetup R-Ladies Rio       | 23/11/2017 - 18:00 | <https://www.meetup.com/rladies-rio/events/244485597/> |
-| R-Ladies Rio de Janeiro | 2º Meetup R-Ladies Rio       | 27/07/2017 - 18:00 | <https://www.meetup.com/rladies-rio/events/240509266/> |
-| R-Ladies Rio de Janeiro | Primeiro Meetup R-Ladies Rio | 18/05/2017 - 19:00 | <https://www.meetup.com/rladies-rio/events/239173353/> |
+| Capítulo | Nome do evento | Data e Hora | Link |
+| :------- | :------------- | :---------- | :--- |
