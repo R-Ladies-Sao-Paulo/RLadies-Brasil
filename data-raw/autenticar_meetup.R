@@ -23,10 +23,9 @@ reset_pwd <- FALSE
 crypt_path <- 'inst/secret/meetup_token_cyphr.rds'
 
 if (crypto) {
-  # caminho do token sem criptografia
-  # - precisa ser fora do diretório git
-  # - se já tiver criptografado não precisa mudar aqui
-  token_path <- 'C:/Users/jean/Documents/secrets/meetup_token.rds'
+  # cria um diretório temporário para
+  # armazenar o token sem criptografia
+  token_path <- tempfile(fileext = '.rds')
   
   # renovar token no meetup (rodar apenas localmente)
   meetupr::meetup_auth(
