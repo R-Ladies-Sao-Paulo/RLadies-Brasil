@@ -25,15 +25,15 @@ jobs:
         shell: Rscript {0}
       - name:  Autenticar meetupr
         env: 
-          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e 'source("data-raw/autenticar_meetup.R", encoding = "UTF-8")'
       - name:  Atualiza capítulos - meetupr
         env: 
-          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e 'source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
       - name: Atualiza eventos - meetupr
         env: 
-          RLADIES_BRASIL_PASSWORD: ${{ secrets.MEETUPR_PWD }}
+          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Atualizar eventos recentes - dados do R Community Dashboard - OFFLINE
         run: Rscript -e '# source("data-raw/obter_eventos_recentes.R", encoding = "UTF-8")'        
