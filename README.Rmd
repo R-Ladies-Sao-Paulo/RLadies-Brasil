@@ -69,7 +69,7 @@ eventos_brasil <- RLadiesBrasil::eventos_br %>%
 ```
 
 
-## Eventos futuros/ Eventos recentes
+## Eventos futuros
 
 ```{r}
 # CÓDIGO ABAIXO: USANDO COM O PACOTE MEETUPR
