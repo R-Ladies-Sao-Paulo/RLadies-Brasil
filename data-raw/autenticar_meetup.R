@@ -1,0 +1,60 @@
+library(cyphr)
+
+# opções ------------------------------------------------------------------
+
+# algumas funções só precisam ser rodadas localmente
+# para renovar o token. se estiver rodando fora
+# do actions, aqui fica automaticamente como TRUE
+local <- interactive()
+
+# se não precisar criptografar o token
+# novamente, deixar aqui como FALSE
+crypto <- FALSE
+
+# se quiser resetar a senha do token,
+# colocar aqui como TRUE. se uma senha
+# já estiver carregada no Renv, deixar FALSE
+reset_pwd <- FALSE
+
+
+# criptografa o token -----------------------------------------------------
+
+# caminho do token para criptografar / criptografado
+crypt_path <- 'inst/secret/meetup_token_cyphr.rds'
+
+if (crypto) {
+  # caminho do token sem criptografia
+  # - precisa ser fora do diretório git
+  # - se já tiver criptografado não precisa mudar aqui
+  token_path <- 'C:/Users/jean/Documents/secrets/meetup_token.rds'
+  
+  # renovar token no meetup (rodar apenas localmente)
+  if (local) {
+    meetupr::meetup_auth(
+      token = NULL,
+      cache = TRUE,
+      set_renv = FALSE,
+      token_path = token_path
+    )
+  }
+  
+  if (reset_pwd) {
+    # gerando uma senha aleatória
+    sodium_key <- sodium::keygen()
+    Sys.setenv('MEETUPR_PWD' = sodium::bin2hex(sodium_key))
+  }
+  
+  # se quiser copiar a senha, rodar (apenas localmente)
+  if (local) {
+    Sys.getenv('MEETUPR_PWD')
+  }
+  
+  # criptografando a senha e passando para o cyphr
+  key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv('MEETUPR_PWD')))
+  
+  # criptografando o arquivo .rds com o token
+  cyphr::encrypt_file(token_path,
+                      key = key,
+                      dest = crypt_path)
+  
+}

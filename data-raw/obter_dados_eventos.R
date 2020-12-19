@@ -1,13 +1,20 @@
-gargle:::secret_can_decrypt("RLadiesBrasil")
+# autentica no meetup -----------------------------------------------------
 
-token <- gargle:::secret_read(package = "RLadiesBrasil",
-                              name = "meetup_token_gargle.rds.enc")
+# carrega o arquivo criptografado
+source('data-raw/autenticar_meetup.R')
 
-# readBin(token, what='raw') 
-# 
-# rawToChar(token, multiple = TRUE)
+# carrega a chave da criptografia
+key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv('MEETUPR_PWD')))
 
-Sys.setenv(MEETUPR_PAT = token)
+# desencripta temporariamente para usar na autenticação
+temp_token <- tempfile(fileext = '.rds')
+
+cyphr::decrypt_file(crypt_path,
+                    key = key,
+                    dest = temp_token)
+
+# autentica usando o arquivo temporário
+meetupr::meetup_auth(token = temp_token)
 
 # Buscar informações sobre os capítulos no Brasil -----------
 `%>%` <- magrittr::`%>%`
