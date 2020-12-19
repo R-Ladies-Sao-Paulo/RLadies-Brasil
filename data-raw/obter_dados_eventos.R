@@ -1,6 +1,4 @@
 # autentica no meetup -----------------------------------------------------
-
-# carrega o arquivo criptografado
 source('data-raw/autenticar_meetup.R')
 
 # Buscar informações sobre os capítulos no Brasil -----------
