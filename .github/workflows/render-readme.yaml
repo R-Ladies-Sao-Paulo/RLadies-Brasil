@@ -22,6 +22,7 @@ jobs:
           remotes::install_local(".")
           remotes::install_cran("rmarkdown")
           remotes::install_cran("usethis")
+          remotes::install_github("rladies/meetupr@noninteractive")
         shell: Rscript {0}
       - name:  Autenticar meetupr
         env: 
