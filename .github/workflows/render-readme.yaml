@@ -28,10 +28,10 @@ jobs:
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e 'source("data-raw/autenticar_meetup.R", encoding = "UTF-8")'
-      - name:  Atualiza capítulos - meetupr
+      - name:  Atualiza capítulos - meetupr  - OFFLINE
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
-        run: Rscript -e 'source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
+        run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
       - name: Atualiza eventos - meetupr
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
