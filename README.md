@@ -57,21 +57,8 @@ foi criado após a data da última atualização dos dados abaixo.
 
 ## Eventos futuros/ Eventos recentes
 
-| Capítulo                | Nome do evento                                                                              | Data        | Link                                                              |
-| :---------------------- | :------------------------------------------------------------------------------------------ | :---------- | :---------------------------------------------------------------- |
-| R-Ladies Goiânia        | Mineração de Texto \[Virtual\]                                                              | 12/Dec/2020 | <https://www.meetup.com/rladies-goiania/events/275028688/>        |
-| R-Ladies Salvador       | 2° Meetup Virtual R-Ladies Salvador \[Virtual\]                                             | 12/Dec/2020 | <https://www.meetup.com/rladies-salvador/events/274868144/>       |
-| R-Ladies Goiânia        | \#PCA: GGPLOT2, PLOTLY & GGANIMATE \[Virtual\]                                              | 07/Dec/2020 | <https://www.meetup.com/rladies-goiania/events/274902564/>        |
-| R-Ladies São Paulo      | \[MeetUp Online\] Visualização Interativa de Dados – uma aplicação usando Shiny \[Virtual\] | 05/Dec/2020 | <https://www.meetup.com/rladies-sao-paulo/events/274890852/>      |
-| R-Ladies Curitiba       | word2vec: Onde vivem? O que fazem? O que comem? \[Virtual\]                                 | 01/Dec/2020 | <https://www.meetup.com/rladies-curitiba/events/274732608/>       |
-| R-Ladies Goiânia        | Análise de Dados Epidemiológicos \[Virtual\]                                                | 28/Nov/2020 | <https://www.meetup.com/rladies-goiania/events/274487649/>        |
-| R-Ladies São Paulo      | \[MeetUp Online\] People Analytics a Ciência de dados no RH \[Virtual\]                     | 22/Nov/2020 | <https://www.meetup.com/rladies-sao-paulo/events/274649434/>      |
-| R-Ladies Belo Horizonte | We R Ladies - Como criar um pacote do zero no R \[Virtual\]                                 | 21/Nov/2020 | <https://www.meetup.com/rladies-belo-horizonte/events/274501007/> |
-
-Dados de eventos recentes obtidos no [calendário do R Community
-Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
-(Thanks to [Ben Ubah](https://github.com/benubah) for [this
-suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))\!
+| Capítulo | Nome do evento | Data e Hora | Link |
+| :------- | :------------- | :---------- | :--- |
 
 ## Eventos passados
 
