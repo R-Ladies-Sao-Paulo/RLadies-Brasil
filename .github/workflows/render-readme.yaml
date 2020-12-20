@@ -36,8 +36,6 @@ jobs:
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e 'source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
-      - name: Atualizar eventos recentes - dados do R Community Dashboard - OFFLINE
-        run: Rscript -e '# source("data-raw/obter_eventos_recentes.R", encoding = "UTF-8")'        
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
       - name: Commit results
