@@ -20,7 +20,7 @@ jobs:
       - name: Install rmarkdown, remotes, and the local package
         run: |
           # install.packages("remotes", repos = "https://cloud.r-project.org")
-          # remotes::install_local(".")
+          remotes::install_local(".")
           # remotes::install_cran("rmarkdown")
           # remotes::install_cran("usethis")
           # remotes::install_github("rladies/meetupr@noninteractive")
@@ -37,7 +37,7 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
-      - name:  Autenticar meetupr
+      - name:  Autenticar meetupr - OFFLINE
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e '# source("data-raw/autenticar_meetup.R", encoding = "UTF-8")'
@@ -45,7 +45,7 @@ jobs:
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
-      - name: Atualiza eventos - meetupr
+      - name: Atualiza eventos - meetupr - OFFLINE
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
         run: Rscript -e '# source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
