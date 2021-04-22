@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
   echo = FALSE
 )
 
-library(magrittr)
+library(magrittr, include.only = "%>%")
 ```
 
 # Capítulos da RLadies no Brasil
@@ -63,7 +63,8 @@ b) se foi criado após a data da última atualização dos dados abaixo.
 ```{r}
 eventos_brasil <- RLadiesBrasil::eventos_br %>%
   dplyr::mutate(
-    data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}"),
+    data_e_hora = glue::glue("{format(local_date_6, '%d/%m/%Y')} - {local_time_7}",),
+    nome_link = glue::glue("[{name_2}]({link_20})"),
     ano = lubridate::year(local_date_6)
   ) 
 ```
@@ -80,15 +81,16 @@ eventos_brasil <- RLadiesBrasil::eventos_br %>%
 
 # CÓDIGO ABAIXO: USANDO COM OS DADOS DO JSON DO R COMMUNITY DASHBOARD
 RLadiesBrasil::atualizar_eventos_recentes() %>%
-  dplyr::arrange(desc(start)) %>%
+  dplyr::arrange(start) %>%
   dplyr::mutate(data = lubridate::as_date(start)) %>% 
   dplyr::filter(data  >= Sys.Date()) %>% 
   tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>%
   dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
+                title = glue::glue("[{title}]({url})"),
    
                 data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>%
-  dplyr::select(group, title, data, url) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
+  dplyr::select(group, title, data) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link", "Data"))
 
 
 ```
@@ -101,30 +103,30 @@ Dados de eventos recentes obtidos no [calendário do R Community Explorer](https
 
 ```{r}
 eventos_brasil %>% dplyr::filter(ano == 2020) %>%
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+  dplyr::select(name_37, nome_link, data_e_hora) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link", "Data e Hora"))
 ```
 
 ### 2019
 
 ```{r}
 eventos_brasil %>% dplyr::filter(ano == 2019) %>%
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+  dplyr::select(name_37, nome_link, data_e_hora) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link",  "Data e Hora"))
 ```
 
 ### 2018
 
 ```{r}
 eventos_brasil %>% dplyr::filter(ano == 2018) %>%
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+  dplyr::select(name_37, nome_link, data_e_hora) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link",  "Data e Hora"))
 ```
 
 ### 2017
 
 ```{r}
 eventos_brasil %>% dplyr::filter( ano == 2017) %>%
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+  dplyr::select(name_37, nome_link, data_e_hora) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link",  "Data e Hora"))
 ```
