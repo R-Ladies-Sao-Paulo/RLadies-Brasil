@@ -557,15 +557,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.10.9002",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "rlang",
-      "RemoteUsername": "r-lib",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "108a2a1ba58b46a7bf2fa0655945149892000b0a",
-      "Hash": "0fa8b0a7ff96931c9fa94bf273cee70f"
+      "Version": "0.4.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "599df23c40a4fce9c7b4764f28c37857"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
