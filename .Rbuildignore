@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 ^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
@@ -6,3 +8,6 @@
 ^docs$
 ^pkgdown$
 ^LICENSE\.md$
+^README\.Rmd$
+^secret$
+^~/Library/Application Support/meetupr/meetupr-token\.rds$

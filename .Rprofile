@@ -1,2 +1,3 @@
+source("renv/activate.R")
 
-options(repos = list(CRAN="http://cran.rstudio.com/")
+options(repos = list(CRAN="http://cran.rstudio.com/"))

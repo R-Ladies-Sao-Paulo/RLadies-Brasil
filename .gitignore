@@ -4,3 +4,5 @@
 .Ruserdata
 .httr-oauth
 .meetup_token.rds
+docs
+~/Library/Application Support/meetupr/meetupr-token.rds

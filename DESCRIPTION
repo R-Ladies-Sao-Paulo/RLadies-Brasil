@@ -31,8 +31,8 @@ Authors@R: c(
            family = "Nunes Carvalho",
            role = c("ctb"))
          )
-Description: Dados sobre capítulos e eventos das R-Ladies no Brasil
-License: CC0
+Description: Dados sobre capítulos e eventos das R-Ladies no Brasil.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
