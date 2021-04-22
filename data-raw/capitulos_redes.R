@@ -6,8 +6,8 @@ base_redes <- tibble::tibble(
   instagram   = as.character(),
   twitter  = as.character(),
   youtube = as.character(),
-
-
+  
+  
   facebook  = as.character(),
   linkedin  = as.character(),
   github = as.character(),
@@ -133,10 +133,15 @@ capitulos_redes <- base_redes %>%
   
   tibble::add_row(nome = "Teresina",
                   youtube = "https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ",
-                  instagram = "https://www.instagram.com/rladiesthe")
+                  instagram = "https://www.instagram.com/rladiesthe") %>%
+  
+  tibble::add_row(nome = "São Mateus",
+                  meetup = "https://www.meetup.com/rladies-sao-mateus/") %>%
+  
+  tibble::add_row(nome = "Brasília",
+                  meetup = "https://www.meetup.com/rladies-brasilia/")
 
 usethis::use_data(capitulos_redes, overwrite = TRUE)
 
 # purrr::map(capitulos_redes, ~sum(is.na(.)))
 
-                       

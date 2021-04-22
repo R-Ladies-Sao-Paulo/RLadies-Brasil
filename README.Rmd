@@ -57,7 +57,7 @@ Os dados abaixo foram obtidos na API do Meetup, através do pacote [`meetupr`](h
 a) verifique se o evento existe na plataforma do meetup;
 b) se foi criado após a data da última atualização dos dados abaixo.
 
-**Data da última atualização: `r format(Sys.Date(), "%d/%m/%Y")`**
+~~**Data da última atualização: `r format(Sys.Date(), "%d/%m/%Y")`**~~ Estamos enfrentando problemas no acesso à API do meetup, portanto essa página pode estar desatualizada.
 
 
 ```{r}
@@ -73,32 +73,34 @@ eventos_brasil <- RLadiesBrasil::eventos_br %>%
 
 ```{r}
 # CÓDIGO ABAIXO: USANDO COM O PACOTE MEETUPR
-eventos_brasil %>% 
-  dplyr::filter(status_4 == "upcoming") %>%
-  dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
-  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
+# eventos_brasil %>% 
+#   dplyr::filter(status_4 == "upcoming") %>%
+#   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
+#   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 
 # CÓDIGO ABAIXO: USANDO COM OS DADOS DO JSON DO R COMMUNITY DASHBOARD
-# RLadiesBrasil::eventos_recentes_brasil %>% 
-#   dplyr::arrange(desc(start)) %>% 
-#   tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>% 
-#   dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
-#                 data = lubridate::as_date(start),
-#                 data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>% 
-#   dplyr::select(group, title, data, url) %>%
-#   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
+RLadiesBrasil::atualizar_eventos_recentes() %>%
+  dplyr::arrange(desc(start)) %>%
+  dplyr::mutate(data = lubridate::as_date(start)) %>% 
+  dplyr::filter(data  >= Sys.Date()) %>% 
+  tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>%
+  dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
+   
+                data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>%
+  dplyr::select(group, title, data, url) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data", "Link"))
 
-# Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Ben Ubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
+
 ```
 
-
+Dados de eventos recentes obtidos no [calendário do R Community Explorer](https://r-community.github.io/event-explorer/rcalendar.html) (Thanks to [Ben Ubah](https://github.com/benubah) for [this suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
 
 ## Eventos passados
 
 ### 2020
 
 ```{r}
-eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
+eventos_brasil %>% dplyr::filter(ano == 2020) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -106,7 +108,7 @@ eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2020) %>%
 ### 2019
 
 ```{r}
-eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
+eventos_brasil %>% dplyr::filter(ano == 2019) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -114,7 +116,7 @@ eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2019) %>%
 ### 2018
 
 ```{r}
-eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
+eventos_brasil %>% dplyr::filter(ano == 2018) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```
@@ -122,7 +124,7 @@ eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2018) %>%
 ### 2017
 
 ```{r}
-eventos_brasil %>% dplyr::filter(status_4 == "past", ano == 2017) %>%
+eventos_brasil %>% dplyr::filter( ano == 2017) %>%
   dplyr::select(name_37, name_2, data_e_hora, link_20) %>%
   knitr::kable(col.names = c("Capítulo", "Nome do evento", "Data e Hora", "Link"))
 ```

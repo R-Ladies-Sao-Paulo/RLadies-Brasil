@@ -2,12 +2,17 @@
 source('data-raw/autenticar_meetup.R')
 
 # Buscar informações sobre os capítulos no Brasil -----------
-`%>%` <- magrittr::`%>%`
+library(magrittr, include.only = "%>%")
+#devtools::load_all()
 
 urlname <- RLadiesBrasil::capitulos_br %>% dplyr::pull(urlname)
 
 maybe_get_events <-
   purrr::possibly(meetupr::get_events, otherwise = "Erro")
+
+# testando
+# meetupr::get_events(urlname[1])
+# resposta:  Forbidden (HTTP 403).
 
 events <- purrr::map(
   .x = urlname,

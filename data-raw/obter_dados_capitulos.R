@@ -3,12 +3,11 @@
 # talvez uma vez a cada mês para saber se existem novos
 # capítulos da R-Ladies no Brasil
 
-`%>%` <- magrittr::`%>%`
+devtools::load_all()
 
-groups <- meetupr::find_groups(text = "r-ladies") #topic_id = 1513883
-
-capitulos_br <- groups %>%
-  dplyr::filter(country == "BR") %>%
-  dplyr::distinct()
+capitulos_br <- atualizar_dados_capitulos_br()
 
 usethis::use_data(capitulos_br, overwrite = TRUE)
+
+
+# capitulos_br <- RLadiesBrasil::capitulos_br
