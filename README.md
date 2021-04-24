@@ -55,7 +55,7 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 22/04/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 24/04/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
@@ -63,7 +63,6 @@ desatualizada.
 
 | Capítulo         | Nome do evento/Link                                                                                                     | Data        |
 | :--------------- | :---------------------------------------------------------------------------------------------------------------------- | :---------- |
-| R-Ladies Natal   | [Conhecendo R-Ladies Natal entre scripts e meetups \[Virtual\]](https://www.meetup.com/rladies-natal/events/277696007/) | 22/Apr/2021 |
 | R-Ladies Goiânia | [Flexdashboard: Painéis interativos utilizando R \[Virtual\]](https://www.meetup.com/rladies-goiania/events/277628997/) | 24/Apr/2021 |
 
 Dados de eventos recentes obtidos no [calendário do R Community
