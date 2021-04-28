@@ -55,7 +55,7 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 27/04/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 28/04/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
