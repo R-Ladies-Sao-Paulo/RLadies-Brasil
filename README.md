@@ -55,16 +55,15 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 08/05/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 09/05/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
 ## Eventos futuros
 
-| Capítulo           | Nome do evento/Link                                                                                                                                 | Data        |
-| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
-| R-Ladies São Paulo | [\[MeetUp Online\] Tidymodels: Estruturando o processo de Machine Learning \[Virtual\]](https://www.meetup.com/rladies-sao-paulo/events/277850175/) | 08/May/2021 |
-| R-Ladies Goiânia   | [Shiny: Construindo aplicativos web interativos \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278001082/)                              | 15/May/2021 |
+| Capítulo         | Nome do evento/Link                                                                                                    | Data        |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------- | :---------- |
+| R-Ladies Goiânia | [Shiny: Construindo aplicativos web interativos \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278001082/) | 15/May/2021 |
 
 Dados de eventos recentes obtidos no [calendário do R Community
 Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
