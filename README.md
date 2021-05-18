@@ -55,15 +55,16 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 17/05/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 18/05/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
 ## Eventos futuros
 
-| Capítulo       | Nome do evento/Link                                                                              | Data        |
-| :------------- | :----------------------------------------------------------------------------------------------- | :---------- |
-| R-Ladies Natal | [R do Zero: para iniciantes \[Virtual\]](https://www.meetup.com/rladies-natal/events/278122682/) | 21/May/2021 |
+| Capítulo                | Nome do evento/Link                                                                                                                     | Data        |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
+| R-Ladies Natal          | [R do Zero: para iniciantes \[Virtual\]](https://www.meetup.com/rladies-natal/events/278122682/)                                        | 21/May/2021 |
+| R-Ladies Belo Horizonte | [We R Ladies - Previsão de Séries Temporais com o {fable} \[Virtual\]](https://www.meetup.com/rladies-belo-horizonte/events/278234618/) | 26/May/2021 |
 
 Dados de eventos recentes obtidos no [calendário do R Community
 Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
