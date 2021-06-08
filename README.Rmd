@@ -99,6 +99,25 @@ Dados de eventos recentes obtidos no [calendário do R Community Explorer](https
 
 ## Eventos passados
 
+### Eventos recentes
+
+```{r}
+RLadiesBrasil::atualizar_eventos_recentes() %>%
+  dplyr::arrange(start) %>%
+  dplyr::mutate(data = lubridate::as_date(start)) %>% 
+  dplyr::filter(data  <= Sys.Date()) %>% 
+  tidyr::separate(title, sep = ":", into = c("capitulo", "title"), remove = FALSE, extra = "merge") %>%
+  dplyr::mutate(title = stringr::str_remove_all(title, ", Brazil, Latin America"),
+                title = glue::glue("[{title}]({url})"),
+   
+                data = format(data, "%d/%b/%Y", locale = "pt_BR")) %>%
+  dplyr::select(group, title, data) %>%
+  knitr::kable(col.names = c("Capítulo", "Nome do evento/Link", "Data"))
+
+
+```
+
+
 ### 2020
 
 ```{r}

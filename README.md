@@ -1,6 +1,5 @@
 
 <!-- NÃO edite o arquivo README.MD -->
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Capítulos da RLadies no Brasil
@@ -21,7 +20,7 @@ ou **comentar [nessa
 issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)**.
 
 |      nome      |                                 meetup                                 |                                  instagram                                  |                           twitter                            |                                          youtube                                          |                               facebook                               |                                  linkedin                                   |                                      github                                       |                         site                          |                        email                        |
-| :------------: | :--------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------: |
+|:--------------:|:----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:-----------------------------------------------------:|:---------------------------------------------------:|
 | Rio de Janeiro |      [:white\_check\_mark:](https://www.meetup.com/rladies-rio/)       |        [:white\_check\_mark:](https://www.instagram.com/rladiesrio/)        |    [:white\_check\_mark:](https://twitter.com/rladiesrio)    | [:white\_check\_mark:](https://www.youtube.com/channel/UCGwTYiK7vTePhPpDRgQAq_A/featured) |        [:white\_check\_mark:](http://facebook.com/rladiesrio)        |                                                                             |                                                                                   |                                                       |                                                     |
 |  Porto Alegre  |  [:white\_check\_mark:](https://www.meetup.com/rladies-porto-alegre/)  |                                                                             |    [:white\_check\_mark:](https://twitter.com/RLadiesPOA)    |     [:white\_check\_mark:](https://www.youtube.com/channel/UCDCOvchmfUW7gFP5CrSIXrw)      | [:white\_check\_mark:](https://www.facebook.com/RLadiesPortoAlegre/) |                                                                             |                                                                                   |                                                       |                                                     |
 |   São Paulo    |   [:white\_check\_mark:](https://www.meetup.com/rladies-sao-paulo/)    |     [:white\_check\_mark:](https://www.instagram.com/RLadiesSaoPaulo/)      | [:white\_check\_mark:](https://twitter.com/RLadiesSaoPaulo)  |       [:white\_check\_mark:](https://www.youtube.com/c/RLadiesS%C3%A3oPaulo/videos)       |     [:white\_check\_mark:](http://facebook.com/RLadiesSaoPaulo)      |                                                                             | [:white\_check\_mark:](https://github.com/rladies/meetup-presentations_sao-paulo) |                                                       | [:white\_check\_mark:](mailto:saopaulo@rladies.org) |
@@ -40,7 +39,7 @@ issue](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/issues/1)**.
 |    Curitiba    |   [:white\_check\_mark:](https://www.meetup.com/rladies-curitibaa/)    |      [:white\_check\_mark:](https://www.instagram.com/rladiescuritiba)      |                                                              |                                                                                           |                                                                      | [:white\_check\_mark:](https://www.linkedin.com/company/r-ladies-curitiba)  |                                                                                   |                                                       |                                                     |
 |    Teresina    |                                                                        |        [:white\_check\_mark:](https://www.instagram.com/rladiesthe)         |                                                              |     [:white\_check\_mark:](https://www.youtube.com/channel/UCiEloyxyXZluv7p46DGCqQQ)      |                                                                      |                                                                             |                                                                                   |                                                       |                                                     |
 |   São Mateus   |   [:white\_check\_mark:](https://www.meetup.com/rladies-sao-mateus/)   |                                                                             |                                                              |                                                                                           |                                                                      |                                                                             |                                                                                   |                                                       |                                                     |
-|    Brasília    |    [:white\_check\_mark:](https://www.meetup.com/rladies-brasilia/)    |                                                                             |                                                              |                                                                                           |                                                                      |                                                                             |                                                                                   |                                                       |                                                     |
+|    Brasília    |    [:white\_check\_mark:](https://www.meetup.com/rladies-brasilia/)    |        [:white\_check\_mark:](https://www.instagram.com/rladiesbsb/)        |                                                              |                                                                                           |                                                                      |                                                                             |                                                                                   |                                                       |                                                     |
 
 OBS: [Esse
 dashboard](https://benubah.github.io/r-community-explorer/rladies.html)
@@ -55,28 +54,38 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 23/05/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 07/06/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
 ## Eventos futuros
 
-| Capítulo                | Nome do evento/Link                                                                                                                     | Data        |
-| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
-| R-Ladies Belo Horizonte | [We R Ladies - Previsão de Séries Temporais com o {fable} \[Virtual\]](https://www.meetup.com/rladies-belo-horizonte/events/278234618/) | 26/May/2021 |
-| R-Ladies Goiânia        | [Regressão com Tidymodels \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278283636/)                                        | 29/May/2021 |
+| Capítulo        | Nome do evento/Link                                                                                            | Data        |
+|:----------------|:---------------------------------------------------------------------------------------------------------------|:------------|
+| R-Ladies Lavras | [Relatórios e Apresentações em RMarkdown \[Virtual\]](https://www.meetup.com/rladies-lavras/events/278626085/) | 08/Jun/2021 |
 
 Dados de eventos recentes obtidos no [calendário do R Community
 Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
 (Thanks to [Ben Ubah](https://github.com/benubah) for [this
-suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))\!
+suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328))!
 
 ## Eventos passados
+
+### Eventos recentes
+
+| Capítulo                | Nome do evento/Link                                                                                                                                 | Data        |
+|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| R-Ladies São Paulo      | [\[MeetUp Online\] Tidymodels: Estruturando o processo de Machine Learning \[Virtual\]](https://www.meetup.com/rladies-sao-paulo/events/277850175/) | 08/May/2021 |
+| R-Ladies Goiânia        | [Shiny: Construindo aplicativos web interativos \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278001082/)                              | 15/May/2021 |
+| R-Ladies Natal          | [R do Zero: para iniciantes \[Virtual\]](https://www.meetup.com/rladies-natal/events/278122682/)                                                    | 21/May/2021 |
+| R-Ladies Belo Horizonte | [We R Ladies - Previsão de Séries Temporais com o {fable} \[Virtual\]](https://www.meetup.com/rladies-belo-horizonte/events/278234618/)             | 26/May/2021 |
+| R-Ladies Goiânia        | [Regressão com Tidymodels \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278283636/)                                                    | 29/May/2021 |
+| R-Ladies Natal          | [Análise de Dados Hidrológicos no R \[Virtual\]](https://www.meetup.com/rladies-natal/events/278343212/)                                            | 04/Jun/2021 |
 
 ### 2020
 
 | Capítulo                | Nome do evento/Link                                                                                                                              | Data e Hora        |
-| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+|:------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
 | R-Ladies Salvador       | [2° Meetup Virtual R-Ladies Salvador](https://www.meetup.com/rladies-salvador/events/274868144/)                                                 | 12/12/2020 - 15:00 |
 | R-Ladies Goiânia        | [Mineração de Texto](https://www.meetup.com/rladies-goiania/events/275028688/)                                                                   | 12/12/2020 - 14:00 |
 | R-Ladies Fortaleza      | [Introdução ao Git e GitHub no RStudio](https://www.meetup.com/rladies-fortaleza/events/275030815/)                                              | 12/12/2020 - 09:00 |
@@ -130,14 +139,14 @@ suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328)
 | R-Ladies Vitória        | [\[CANCELADO\] 1º Meetup R-Ladies Vitória - Curso Básico de R / Wordcloud em R](https://www.meetup.com/rladies-vitoria/events/269257160/)        | 19/03/2020 - 19:30 |
 | R-Ladies Goiânia        | [2° Meetup: Code Ladies Day em parceria com PyLadies e AI Girls](https://www.meetup.com/rladies-goiania/events/269130963/)                       | 12/03/2020 - 19:00 |
 | R-Ladies Floripa        | [7º Meetup R-Ladies Floripa](https://www.meetup.com/rladies-florianopolis/events/268632556/)                                                     | 19/02/2020 - 18:30 |
-| R-Ladies São Paulo      | [COMEÇA ÀS 8H\! 16º Meetup R-Ladies São Paulo - Curso Básico de R gratuito](https://www.meetup.com/rladies-sao-paulo/events/268379493/)          | 08/02/2020 - 08:00 |
+| R-Ladies São Paulo      | [COMEÇA ÀS 8H! 16º Meetup R-Ladies São Paulo - Curso Básico de R gratuito](https://www.meetup.com/rladies-sao-paulo/events/268379493/)           | 08/02/2020 - 08:00 |
 | R-Ladies Rio de Janeiro | [R-Ladies Rio + Niterói rstudio::conf ‘watch party’ - conexão ao vivo palestras](https://www.meetup.com/rladies-rio/events/268051456/)           | 29/01/2020 - 13:00 |
 | R-Ladies Rio de Janeiro | [Meetup Janeiro 2020 - Vamos aprender usar Shinydashboard](https://www.meetup.com/rladies-rio/events/267710109/)                                 | 28/01/2020 - 18:30 |
 
 ### 2019
 
 | Capítulo                | Nome do evento/Link                                                                                                                           | Data e Hora        |
-| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
 | R-Ladies Porto Alegre   | [6º Meetup R-Ladies Porto Alegre](https://www.meetup.com/rladies-porto-alegre/events/266643948/)                                              | 16/12/2019 - 19:30 |
 | R-Ladies Goiânia        | [R-Ladies GYN: Analisando dados longitudinais e ML na Indústria Alimentícia com R](https://www.meetup.com/rladies-goiania/events/267000090/)  | 12/12/2019 - 19:00 |
 | R-Ladies Niterói        | [VII Meetup R - Ladies Niterói](https://www.meetup.com/rladies-niteroi/events/266581736/)                                                     | 12/12/2019 - 16:00 |
@@ -157,7 +166,7 @@ suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328)
 | R-Ladies São Paulo      | [12º MeetUp R-Ladies SP: Introdução ao Git e GitHub](https://www.meetup.com/rladies-sao-paulo/events/264535075/)                              | 12/09/2019 - 19:00 |
 | R-Ladies Belo Horizonte | [Introdução ao R - We R Ladies](https://www.meetup.com/rladies-belo-horizonte/events/263095537/)                                              | 24/08/2019 - 09:00 |
 | R-Ladies Floripa        | [3º Meetup R-Ladies Floripa](https://www.meetup.com/rladies-florianopolis/events/263438999/)                                                  | 22/08/2019 - 18:30 |
-| R-Ladies São Paulo      | [11º MeetUp - R-Ladies São Paulo completa 1 ano\!\!\!\!](https://www.meetup.com/rladies-sao-paulo/events/263896919/)                          | 17/08/2019 - 13:30 |
+| R-Ladies São Paulo      | [11º MeetUp - R-Ladies São Paulo completa 1 ano!!!!](https://www.meetup.com/rladies-sao-paulo/events/263896919/)                              | 17/08/2019 - 13:30 |
 | R-Ladies Floripa        | [2º Meetup R-Ladies Floripa](https://www.meetup.com/rladies-florianopolis/events/263238870/)                                                  | 18/07/2019 - 19:00 |
 | R-Ladies Porto Alegre   | [5º Meetup R-Ladies Porto Alegre](https://www.meetup.com/rladies-porto-alegre/events/261870325/)                                              | 17/06/2019 - 19:00 |
 | R-Ladies São Paulo      | [10º MeetUp R-Ladies SP: Cases de DataViz com R](https://www.meetup.com/rladies-sao-paulo/events/262226894/)                                  | 15/06/2019 - 13:13 |
@@ -175,12 +184,12 @@ suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328)
 | R-Ladies São Paulo      | [6º MeetUp R-Ladies SP: Minicurso Intermediário de R](https://www.meetup.com/rladies-sao-paulo/events/259019933/)                             | 23/02/2019 - 09:00 |
 | R-Ladies Belo Horizonte | [Curso Prático - Introdução ao R (Aprenda ou Relembre)](https://www.meetup.com/rladies-belo-horizonte/events/258736494/)                      | 23/02/2019 - 13:00 |
 | R-Ladies Niterói        | [3° MEETUP R-LADIES NITERÓI](https://www.meetup.com/rladies-niteroi/events/258493806/)                                                        | 05/02/2019 - 16:00 |
-| R-Ladies São Paulo      | [5º MeetUp R-Ladies SP (e o 1º de 2019\!): Minicurso de Introdução ao R](https://www.meetup.com/rladies-sao-paulo/events/258556255/)          | 02/02/2019 - 09:00 |
+| R-Ladies São Paulo      | [5º MeetUp R-Ladies SP (e o 1º de 2019!): Minicurso de Introdução ao R](https://www.meetup.com/rladies-sao-paulo/events/258556255/)           | 02/02/2019 - 09:00 |
 
 ### 2018
 
 | Capítulo                | Nome do evento/Link                                                                                                                            | Data e Hora        |
-| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
+|:------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
 | R-Ladies São Paulo      | [4º MeetUp R-Ladies SP: Dados Abertos com R - Primeiros Passos](https://www.meetup.com/rladies-sao-paulo/events/256772890/)                    | 13/12/2018 - 19:00 |
 | R-Ladies Salvador       | [3° Meetup - Machine Learning with R](https://www.meetup.com/rladies-salvador/events/256715867/)                                               | 01/12/2018 - 14:00 |
 | R-Ladies Porto Alegre   | [3º Meetup R-Ladies Porto Alegre](https://www.meetup.com/rladies-porto-alegre/events/255671017/)                                               | 29/11/2018 - 19:00 |
@@ -201,7 +210,7 @@ suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328)
 ### 2017
 
 | Capítulo                | Nome do evento/Link                                                                  | Data e Hora        |
-| :---------------------- | :----------------------------------------------------------------------------------- | :----------------- |
+|:------------------------|:-------------------------------------------------------------------------------------|:-------------------|
 | R-Ladies Rio de Janeiro | [3º Meetup R-Ladies Rio](https://www.meetup.com/rladies-rio/events/244485597/)       | 23/11/2017 - 18:00 |
 | R-Ladies Rio de Janeiro | [2º Meetup R-Ladies Rio](https://www.meetup.com/rladies-rio/events/240509266/)       | 27/07/2017 - 18:00 |
 | R-Ladies Rio de Janeiro | [Primeiro Meetup R-Ladies Rio](https://www.meetup.com/rladies-rio/events/239173353/) | 18/05/2017 - 19:00 |
