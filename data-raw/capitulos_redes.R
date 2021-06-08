@@ -1,6 +1,6 @@
 ## code to prepare `capitulos_redes` dataset goes here
 library(magrittr)
-base_redes <- tibble::tibble(
+capitulos_redes <- tibble::tibble(
   nome = as.character(),
   meetup = as.character(),
   instagram   = as.character(),
@@ -14,9 +14,7 @@ base_redes <- tibble::tibble(
   site  = as.character(),
   email = as.character()
   
-)
-
-capitulos_redes <- base_redes %>%
+) %>%
   
   tibble::add_row(
     nome = "Rio de Janeiro",
@@ -139,7 +137,8 @@ capitulos_redes <- base_redes %>%
                   meetup = "https://www.meetup.com/rladies-sao-mateus/") %>%
   
   tibble::add_row(nome = "Brasília",
-                  meetup = "https://www.meetup.com/rladies-brasilia/")
+                  meetup = "https://www.meetup.com/rladies-brasilia/",
+                  instagram = "https://www.instagram.com/rladiesbsb/")
 
 usethis::use_data(capitulos_redes, overwrite = TRUE)
 
