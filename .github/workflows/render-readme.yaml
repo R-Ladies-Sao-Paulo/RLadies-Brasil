@@ -2,17 +2,16 @@ on:
   push:
     branches: [ master ]
   schedule:
-  - cron: "10 15 * * *"
+  - cron: "20 12 * * fri"
 
-name: Render README + Update data
+name: Render readme
 
 jobs:
   render:
-    name: Render README
+    name: Render readme
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v1
@@ -21,37 +20,11 @@ jobs:
         run: |
           install.packages("remotes")
           remotes::install_local(".")
-          # remotes::install_cran("rmarkdown")
-          # remotes::install_cran("usethis")
-          # remotes::install_github("rladies/meetupr@noninteractive")
+          remotes::install_cran("rmarkdown")
         shell: Rscript {0}
-      - name: Cache packages
-        uses: actions/cache@v1
-        with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-  
-      - name: Restore packages
-        shell: Rscript {0}
-        run: |
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          #renv::restore()
-      - name:  Autenticar meetupr - OFFLINE
-        env: 
-          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
-        run: Rscript -e '# source("data-raw/autenticar_meetup.R", encoding = "UTF-8")'
-      - name:  Atualiza capítulos - meetupr  - OFFLINE
-        env: 
-          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
-        run: Rscript -e '# source("data-raw/obter_dados_capitulos.R", encoding = "UTF-8")'
-      - name: Atualiza eventos - meetupr - OFFLINE
-        env: 
-          MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
-        run: Rscript -e '# source("data-raw/obter_dados_eventos.R", encoding = "UTF-8")'
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
-      - name: Commit results
+     - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
