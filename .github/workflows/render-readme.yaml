@@ -22,7 +22,7 @@ jobs:
           remotes::install_local(".")
           remotes::install_cran("rmarkdown")
         shell: Rscript {0}
-      - name: Render README
+     - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
      - name: Commit results
         run: |
