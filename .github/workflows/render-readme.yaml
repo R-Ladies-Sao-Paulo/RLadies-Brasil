@@ -36,7 +36,7 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          renv::restore()
+          #renv::restore()
       - name:  Autenticar meetupr - OFFLINE
         env: 
           MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
