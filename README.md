@@ -54,15 +54,14 @@ seja uma pessoa organizadora e o evento não esteja aparecendo nesta
 lista: a) verifique se o evento existe na plataforma do meetup; b) se
 foi criado após a data da última atualização dos dados abaixo.
 
-~~**Data da última atualização: 07/06/2021**~~ Estamos enfrentando
+~~**Data da última atualização: 25/07/2021**~~ Estamos enfrentando
 problemas no acesso à API do meetup, portanto essa página pode estar
 desatualizada.
 
 ## Eventos futuros
 
-| Capítulo        | Nome do evento/Link                                                                                            | Data        |
-|:----------------|:---------------------------------------------------------------------------------------------------------------|:------------|
-| R-Ladies Lavras | [Relatórios e Apresentações em RMarkdown \[Virtual\]](https://www.meetup.com/rladies-lavras/events/278626085/) | 08/Jun/2021 |
+| Capítulo | Nome do evento/Link | Data |
+|:---------|:--------------------|:-----|
 
 Dados de eventos recentes obtidos no [calendário do R Community
 Explorer](https://r-community.github.io/event-explorer/rcalendar.html)
@@ -73,14 +72,11 @@ suggestion](https://github.com/rladies/meetupr/issues/79#issuecomment-743910328)
 
 ### Eventos recentes
 
-| Capítulo                | Nome do evento/Link                                                                                                                                 | Data        |
-|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|:------------|
-| R-Ladies São Paulo      | [\[MeetUp Online\] Tidymodels: Estruturando o processo de Machine Learning \[Virtual\]](https://www.meetup.com/rladies-sao-paulo/events/277850175/) | 08/May/2021 |
-| R-Ladies Goiânia        | [Shiny: Construindo aplicativos web interativos \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278001082/)                              | 15/May/2021 |
-| R-Ladies Natal          | [R do Zero: para iniciantes \[Virtual\]](https://www.meetup.com/rladies-natal/events/278122682/)                                                    | 21/May/2021 |
-| R-Ladies Belo Horizonte | [We R Ladies - Previsão de Séries Temporais com o {fable} \[Virtual\]](https://www.meetup.com/rladies-belo-horizonte/events/278234618/)             | 26/May/2021 |
-| R-Ladies Goiânia        | [Regressão com Tidymodels \[Virtual\]](https://www.meetup.com/rladies-goiania/events/278283636/)                                                    | 29/May/2021 |
-| R-Ladies Natal          | [Análise de Dados Hidrológicos no R \[Virtual\]](https://www.meetup.com/rladies-natal/events/278343212/)                                            | 04/Jun/2021 |
+| Capítulo           | Nome do evento/Link                                                                                                                      | Data        |
+|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:------------|
+| R-Ladies Lavras    | [Relatórios e Apresentações em RMarkdown \[Virtual\]](https://www.meetup.com/rladies-lavras/events/278626085/)                           | 08/Jun/2021 |
+| R-Ladies Natal     | [ANOVA DE UMA VIA \[Virtual\]](https://www.meetup.com/rladies-natal/events/278857174/)                                                   | 24/Jun/2021 |
+| R-Ladies São Paulo | [\[MeetUp Online\] Conhecendo o ggplot2: criando gráficos com R \[Virtual\]](https://www.meetup.com/rladies-sao-paulo/events/278997220/) | 26/Jun/2021 |
 
 ### 2020
 
