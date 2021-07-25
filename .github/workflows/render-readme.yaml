@@ -1,37 +1,53 @@
+# For help debugging build failures open an issue on the RStudio community with the 'github-actions' tag.
+# https://community.rstudio.com/new-topic?category=Package%20development&tags=github-actions
 on:
   push:
-    branches: [ master ]
+    branches:
+      - main
+      - master
   schedule:
-  - cron: "20 12 * * fri"
+  - cron: "0 1 * * *"
 
-name: Render readme
+name: update-readme
 
 jobs:
-  render:
-    name: Render readme
-    runs-on: macOS-latest
+  update-readme:
+    runs-on: ubuntu-18.04
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ secrets.PAT }}
+      RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
-      - name: Install rmarkdown, remotes, and the local package
-        run: |
-          install.packages("remotes")
-          remotes::install_local(".")
-          remotes::install_cran("rmarkdown")
+      - name: install deps
+        run: sudo apt install libcurl4-openssl-dev
+      - name: Cache packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+      - name: Restore packages
         shell: Rscript {0}
-     - name: Render README
-        run: Rscript -e 'rmarkdown::render("README.Rmd")'
-     - name: Commit results
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          options(
+            repos = "https://packagemanager.rstudio.com/all/__linux__/bionic/1750752",
+            renv.config.repos.override = c("https://packagemanager.rstudio.com/all/__linux__/bionic/1750752", "https://cloud.r-project.org")
+          )
+          if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+          renv::restore()
+          remotes::install_local(dependencies = TRUE)
+      - name: README
+        run: |
+          rmarkdown::render("README.Rmd")
+        shell: Rscript {0}
+      - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add README.Rmd
-          git add README.md
-          git add data/capitulos_br.rda
-          git add data/eventos_br.rda 
-          git add data/capitulos_redes.rda
-          git commit -m 'Atualiza dados e README.Rmd' || echo "No changes to commit"
-          git push origin || echo "No changes to commit"
+          git add -A
+          git commit -m 'Update data' || echo "Update data"
+          git push origin || echo "Update data"
